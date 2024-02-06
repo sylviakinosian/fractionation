@@ -1,0 +1,34 @@
+############### Parameters ###############
+# MATCH_SCORE: 50
+# MATCH_SIZE: 5
+# GAP_PENALTY: -1
+# OVERLAP_WINDOW: 5
+# E_VALUE: 1e-05
+# MAX GAPS: 25
+############### Statistics ###############
+# Number of collinear genes: 40, Percentage: 0.17
+# Number of all genes: 23292
+##########################################
+## Alignment 0: score=286.0 e_value=1.3e-11 N=6 Contig00023&Contig00278 plus
+  0-  0:	EVM0018128.1	EVM0008490.1	      0
+  0-  1:	EVM0005059.1	EVM0012619.3	      0
+  0-  2:	EVM0000366.1	EVM0015534.1	      0
+  0-  3:	EVM0000014.1	EVM0000864.1	      0
+  0-  4:	EVM0001327.1	EVM0024851.1	      0
+  0-  5:	EVM0016372.2	EVM0020962.1	 2e-164
+## Alignment 1: score=356.0 e_value=1.8e-13 N=8 Contig00317&Contig00459 minus
+  1-  0:	EVM0018952.2	EVM0004940.1	      0
+  1-  1:	EVM0012333.1	EVM0010352.1	      0
+  1-  2:	EVM0001013.1	EVM0001783.1	      0
+  1-  3:	EVM0015748.3	EVM0012931.1	  1e-11
+  1-  4:	EVM0015540.1	EVM0001661.2	      0
+  1-  5:	EVM0013378.1	EVM0005790.1	      0
+  1-  6:	EVM0005637.1	EVM0016543.3	  2e-29
+  1-  7:	EVM0002391.1	EVM0004700.1	      0
+## Alignment 2: score=256.0 e_value=2.4e-08 N=6 Contig00318&Contig01409 plus
+  2-  0:	EVM0005664.1	EVM0003270.2	      0
+  2-  1:	EVM0005064.1	EVM0021856.1	 8e-137
+  2-  2:	EVM0011911.3	EVM0005025.1	 2e-110
+  2-  3:	EVM0005991.1	EVM0001902.1	  5e-38
+  2-  4:	EVM0021878.1	EVM0017139.1	 4e-169
+  2-  5:	EVM0003691.1	EVM0011583.3	  2e-83

@@ -1,0 +1,321 @@
+---
+title: "Fractionation in land plants"
+author: "Sylvia Kinosian"
+output: html_document
+---
+
+# {.tabset}
+
+## MCScanX
+
+### MCScanX
+
+The [MCScanX](https://github.com/wyp1125/MCScanX)  program needs two files: .blast and .bed. The blast file is created from the pep (protein) file, and the .bed file is created from the .gff file.
+
+The .bed, .gff, and .cds files need to have the same header names. CDS file is needed later for collinearity. 
+
+Names should reflect the species name. For example, Adiantum nelumboides = AdNe
+
+#### Generating the .blast file
+
+First, make a blast database using the protein (.pep) file
+
+```{bash eval=FALSE}
+makeblastdb -in pepFile.pep -dbtype prot -parse_seqids -out <speciesName>
+```
+
+Then, use blastall to create the .blast file
+
+```{bash eval=FALSE}
+blastall -i pepFile.pep -d <speciesName> -p blastp -e 1e-10 -b 5 -v 5 -m 8 -o out.blast
+```
+
+#### Generating the .bed file
+
+```{bash eval=FALSE}
+python3 -m jcvi.formats.gff bed --type=CDS --key=ID in.gff3 -o out.bed
+
+awk -F '\t' {'print $1"\t"$4"\t"$2"\t"$3'} in.bed > out.gff
+```
+
+Important things to note:
+* the final .bed file for mcscanx must be named X.gff (gff in bed format)
+* make sure there are no gene repeats in the .gff file
+  > can get rid of with a mix of grep and vim
+  > example:
+```{bash eval=FALSE}
+grep '.t1.CDS1\s' in.gff > out.gff
+
+#in vim:
+%s/\.t1\.CDS1//g (removing extra bit off the gene names)
+```
+
+### Removing paralogs
+
+I used the program [CD-HIT](https://github.com/weizhongli/cdhit) to remove gene duplicates from the non-phased Selaginella moellendorffii genome.
+
+```{bash eval=FALSE}
+~/apps/cdhit/cd-hit -i SeMo.pep.isoless -o SeMo.pep.fa -c 0.80 -n 5 -M 10000
+~/apps/cdhit/cd-hit -i SeMo.pep.isoless -o SeMo.pep.fa -c 0.90 -n 5 -M 10000
+```
+
+
+#### Run MCScanX
+
+This creates the self-self synteny file needed for Frackify
+```{bash eval=FALSE}
+./MCScanX -s 5 <speciesNameFolder>/<speciesName>
+
+#add KA/KS values
+perl MCScanX/downstream_analyses/add_ka_and_ks_to_collinearity.pl -i “FILE”.collinearity -d “FILE”.cds -o “FILE”.txt
+```
+
+Then, we need to compare each genome to an outgroup. The outgroup chosen should not share the WGD you intent to dectect paleologs from.
+
+First, merge the cds and gff files. 
+
+```{bash eval=FALSE}
+cat sp1.gff sp2.gff > sp1-sp2.gff
+cat sp1.cds sp2.cds > sp1-sp2.cds
+```
+
+Next make a protein database for the outgroup, and blast the focal species against the database
+```{bash eval=FALSE}
+makeblastdb -in sp2.pep -dbtype prot -parse_seqids -out sp2
+
+blastall -a NUMBEROFTHREADS -i sp1.pep -d sp2 -p blastp -e 1e-10 -b 5 -v 5 -m 8 -o sp1-sp2.blast
+```
+
+Note from Michael:
+Off topic: if you want to split out only the file name in a bash loop (ie remove the file extension):  $(echo "$i" | cut -f 1 -d '.'). This can be useful if, say, you want to make blast databases for a tone of files: 
+for i in \*.pep ; do makeblastdb -in $i -dbtype prot -parse\_seqids -out $(echo "$i" | cut -f 1 -d '.') ; done"
+
+Make sure the following files are in the same folder:
+sp1-sp2.gff
+sp1-sp2.cds
+sp1-sp2.blast
+
+Then, run MCScanX again, same as above:
+
+```{bash eval=FALSE}
+./MCScanX <speciesNameFolder>/<speciesName>
+
+#add KA/KS values
+perl MCScanX/downstream_analyses/add_ka_and_ks_to_collinearity.pl -i “FILE”.collinearity -d “FILE”.cds -o “FILE”.txt
+```
+Repeat these steps for each genome:
+* Alsophila spinulosa (outgroup A. filiculoides)
+* Selaginella moellendorffii
+* Azolla filiculoides
+* Ceratopteris richardii
+* Diplazium complanatum 
+* Salvinia cucullata
+* Marsilea vestita
+* Adiantum cap-ven
+* Adiantum nelumboides 
+* Isoetes taiwanensis
+* Selaginella lepidophylla
+
+#### Plot synteny
+
+Use the collinearity file to get the number of gene in each synteny block.
+
+```{bash eval=F}
+grep -Po 'N=\d+' sp.collinearity | awk -F '=' {'print $1"\t"$2'} > sp.syn.txt
+```
+
+```{R eval=F}
+n <- read.csv("sp.syn.txt", sep='\t')
+hist(n[,2])
+```
+
+## Frackify
+
+We used the program [Frackify](https://gitlab.com/barker-lab/frackify) to identify paleologs and enumerate retained copies from WGDs.
+
+First we need to get Ks peaks for the species and outgroup. This was done using the MCScan.Peak.Visualizer.py script by Michael McKibben. This script shows you the Ks peaks (1st line of output) and troughs (2nd line output). You can use either but be consistent. You need the first three for the ingroup, and the 2nd for the outgroup. See frackify documentation. 
+
+Eveything needs to be run from within the main Frackify folder. There are two main steps to run Frackify:
+
+```{bash eval=FALSE}
+python3 Survey.py species-info.csv
+
+python3 Frackify.py Translated_Data/species.Forest.csv
+```
+
+Note: using docker worked best for me
+
+```{bash eval=FALSE}
+sudo docker run -u $(id -u) -v $(pwd):/home -t mmckibben/frackify python3 "Intended_Frackify_Command"
+```
+
+Adiantum nelumboides
+Out of 2068 total genes, 2068 matched, 0 did not!
+
+Alsophila spinulosa
+Out of 7769 total genes, 7749 matched, 20 did not!
+
+## Genespace
+
+[Genespace](https://github.com/jtlovell/GENESPACE) is run in R, and it also helps to have a separate conda environment to make sure the propper dependencies are installed, but don't interfere with other programs. All of this can be found on the Genespace github.
+
+Run Genespace within R, with your working directory containing all Genespace files. Easiest to clone the github repo and work within that folder. File formatting and naming are key.
+
+NOTE: when running genespace multiple times, you need to delete most of the folders created by genespace each time. it will mess up the new orthofinder run and other aspects of the program. also things will get overwritten in other folder so save files accordingly.
+
+```{R eval=FALSE}
+library(GENESPACE)
+
+# -- initalize the run and QC the inputs
+gpar <- init_genespace(
+  wd = /path/to/genespace, 
+  path2mcscanx = path/to/mcscanx)
+
+# -- accomplish the run
+out <- run_genespace(gsParam=gpar)
+```
+
+Everything is then saved in different folders in your wd
+
+## Rate of molecular evolution
+
+#### Orthofinder
+
+I took the pep files for each species and ran them through orthofinder to get single copy orthologous genes.
+
+```{bash eval=FALSE}
+orthofinder -f orthofinder/
+```
+
+11 genes were retained
+
+#### MAFFT alignments
+
+for i in alignedOG\*.fa ; do grep '^>' $i > gene$i.txt ; done
+
+perl create\_fna/pl
+
+https://mafft.cbrc.jp/alignment/software/merge.html
+
+mafft sp.pep > sp.fa
+
+pal2nal > create in frame alignments
+
+trimal
+
+concatentate with python
+
+#### BEAST
+ 
+I used \*BEAST to run an analysis using multiple genes.
+
+The tree was calibrated using estimated from Testo and Sundue (2016)
+
+## Path analysis
+
+#### Phylogenetic path analysis
+
+```{R eval=FALSE}
+library(phylopath)
+library(ape)
+
+pterido <- read.csv("pterido_traits.csv")
+tree <- read.tree("astral.tre")
+
+#need to make the rownames the same as tree tipnames
+rownames(pterido) <- tree$tip.label
+
+#make binary/categorical data factor variable
+pterido$RM <- as.factor(pterido$RM)
+
+# testing which variables are important to predict syntenic block size
+# chromosome number seems to be the best predictor of total syntenic block size
+m <- define_model_set(
+	null = c(),
+	one = c(TS ~ SR),
+	two = c(TS ~ CN),
+	three = c(TS ~ RM),
+	four = c(TS ~ GS)
+)
+
+# null model is the best, but if you remove it TS ~ CN is the best
+m <- define_model_set(
+	null = c(),
+	one = c(TS ~ CN),
+	two = c(TS ~ CN + SR),
+	three = c(TS ~ CN + RM),
+	four = c(TS ~ CN + GS)
+)
+
+
+m <- define_model_set(
+	one = c(TS ~ CN),
+	two = c(TS ~ CN + SR),
+	three = c(TS ~ CN + RM),
+	four = c(TS ~ CN + GS)
+)
+
+# how do the other variables matter to one another
+# 1/24 - removing nine kinda makes things work?
+# also updated pterido tree with better diphasistrum numbers
+m <- define_model_set(
+	one = c(TS ~ CN),
+	two = c(TS ~ SR),
+	three = c(TS ~ RM),
+	four = c(TS ~ GS),
+	five = c(CN ~ GS),
+	six = c(GS ~ CN + SR),	
+	eight = c(GS ~ CN),
+	seven = c(CN ~ RM)
+	)
+	
+	,
+	nine = c(SR ~ RM)
+)
+
+
+
+m <- define_model_set(
+	null=c(),
+	direct = c(TS~CN),
+	indirect= c(CN~RM, CN~GS, GS~SR),
+	both = c(TS~CN, CN~RM, CN~GS, GS~SR)
+)
+
+plot_model_set(m)
+
+result <- phylo_path(m, data = pterido, tree = tree)
+
+s <- summary(result)
+
+plot(s)
+best_model <- best(result)
+plot(best_model)
+
+average_model <- average(result, cut_off=Inf)
+plot(average_model, algorithm = 'mds', curvature = 0.1)
+
+# this is an option to use with binary data (here reproductive mode) but I'm not sure if its working any different
+result <- phylo_path(m, data = pterido, tree = tree, method = "logistic_IG10")
+
+CN ~ RW
+CN ~ RM
+CN ~ GS
+CN ~ RW + SR + RM
+CN ~ GS + GC + SR
+CN ~ GS + GC + SR + RW
+GS ~ CN
+GS ~ CN + GC
+GS ~ RW
+GS ~ RW + SR
+GS ~ RW + SR + RM
+SR ~ RM
+SR ~ RM + TS
+SR ~ RM + TS + RW
+TS ~ SR
+TS ~ SR + RM
+TS ~ RM
+TS ~ GS
+TS ~ CN
+TS ~ SR + RW + CN + GS
+```

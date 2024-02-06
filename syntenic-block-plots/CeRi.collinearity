@@ -1,0 +1,840 @@
+############### Parameters ###############
+# MATCH_SCORE: 50
+# MATCH_SIZE: 5
+# GAP_PENALTY: -1
+# OVERLAP_WINDOW: 5
+# E_VALUE: 1e-05
+# MAX GAPS: 25
+############### Statistics ###############
+# Number of collinear genes: 605, Percentage: 1.64
+# Number of all genes: 36857
+##########################################
+## Alignment 0: score=349.0 e_value=9.9e-11 N=7 Chr01&Chr01 minus
+  0-  0:	Ceric.01G056500	Ceric.01G105400	 1e-126
+  0-  1:	Ceric.01G056600	Ceric.01G105300	 4e-150
+  0-  2:	Ceric.01G056800	Ceric.01G105200	 5e-110
+  0-  3:	Ceric.01G056900	Ceric.01G105100	 2e-157
+  0-  4:	Ceric.01G057000	Ceric.01G105000	  6e-11
+  0-  5:	Ceric.01G057100	Ceric.01G104900	  4e-36
+  0-  6:	Ceric.01G057200	Ceric.01G104800	      0
+## Alignment 1: score=345.0 e_value=1.8e-11 N=7 Chr01&Chr02 minus
+  1-  0:	Ceric.01G056400	Ceric.02G012700	      0
+  1-  1:	Ceric.01G056500	Ceric.02G012600	  4e-85
+  1-  2:	Ceric.01G056600	Ceric.02G012500	 4e-149
+  1-  3:	Ceric.01G056800	Ceric.02G012400	 3e-107
+  1-  4:	Ceric.01G056900	Ceric.02G012300	 2e-108
+  1-  5:	Ceric.01G057000	Ceric.02G012100	  6e-11
+  1-  6:	Ceric.01G057300	Ceric.02G011700	 2e-143
+## Alignment 2: score=282.0 e_value=2.3e-11 N=6 Chr01&Chr02 minus
+  2-  0:	Ceric.01G105300	Ceric.02G016800	  7e-93
+  2-  1:	Ceric.01G105500	Ceric.02G015200	  1e-35
+  2-  2:	Ceric.01G105600	Ceric.02G015100	  9e-31
+  2-  3:	Ceric.01G105800	Ceric.02G015000	  7e-20
+  2-  4:	Ceric.01G106000	Ceric.02G014900	  1e-54
+  2-  5:	Ceric.01G106200	Ceric.02G014800	  2e-20
+## Alignment 3: score=279.0 e_value=2.4e-09 N=6 Chr01&Chr07 minus
+  3-  0:	Ceric.01G098200	Ceric.07G064700	  3e-35
+  3-  1:	Ceric.01G098500	Ceric.07G064500	  4e-82
+  3-  2:	Ceric.01G098600	Ceric.07G064400	  6e-90
+  3-  3:	Ceric.01G098800	Ceric.07G064200	      0
+  3-  4:	Ceric.01G099100	Ceric.07G063900	  2e-74
+  3-  5:	Ceric.01G100800	Ceric.07G063300	      0
+## Alignment 4: score=336.0 e_value=2.5e-12 N=7 Chr01&Chr12 plus
+  4-  0:	Ceric.01G089600	Ceric.12G072200	      0
+  4-  1:	Ceric.01G089700	Ceric.12G072400	  6e-92
+  4-  2:	Ceric.01G090500	Ceric.12G072900	      0
+  4-  3:	Ceric.01G090600	Ceric.12G073100	  8e-64
+  4-  4:	Ceric.01G090700	Ceric.12G073400	  4e-11
+  4-  5:	Ceric.01G090800	Ceric.12G073500	  8e-62
+  4-  6:	Ceric.01G090900	Ceric.12G073900	      0
+## Alignment 5: score=393.0 e_value=6.1e-14 N=8 Chr01&Chr13 plus
+  5-  0:	Ceric.01G056500	Ceric.13G052300	 2e-113
+  5-  1:	Ceric.01G056600	Ceric.13G052400	  5e-89
+  5-  2:	Ceric.01G056700	Ceric.13G052500	  3e-44
+  5-  3:	Ceric.01G056800	Ceric.13G052600	 9e-104
+  5-  4:	Ceric.01G057000	Ceric.13G052800	  6e-11
+  5-  5:	Ceric.01G057300	Ceric.13G053100	      0
+  5-  6:	Ceric.01G057400	Ceric.13G053400	 3e-108
+  5-  7:	Ceric.01G056100	Ceric.13G053500	 5e-105
+## Alignment 6: score=529.0 e_value=2.2e-41 N=11 Chr01&Chr29 plus
+  6-  0:	Ceric.01G054300	Ceric.29G003100	 5e-158
+  6-  1:	Ceric.01G055900	Ceric.29G004500	  8e-82
+  6-  2:	Ceric.01G056400	Ceric.29G004900	      0
+  6-  3:	Ceric.01G056500	Ceric.29G005000	 8e-111
+  6-  4:	Ceric.01G056600	Ceric.29G005100	 8e-150
+  6-  5:	Ceric.01G056800	Ceric.29G005200	 1e-110
+  6-  6:	Ceric.01G056900	Ceric.29G005300	      0
+  6-  7:	Ceric.01G057000	Ceric.29G005500	  6e-11
+  6-  8:	Ceric.01G057100	Ceric.29G005600	  4e-36
+  6-  9:	Ceric.01G057200	Ceric.29G005700	      0
+  6- 10:	Ceric.01G057300	Ceric.29G005900	 9e-126
+## Alignment 7: score=299.0 e_value=2.8e-08 N=6 Chr01&Chr29 minus
+  7-  0:	Ceric.01G104800	Ceric.29G005700	      0
+  7-  1:	Ceric.01G104900	Ceric.29G005600	  4e-36
+  7-  2:	Ceric.01G105000	Ceric.29G005500	  6e-11
+  7-  3:	Ceric.01G105100	Ceric.29G005300	 3e-160
+  7-  4:	Ceric.01G105200	Ceric.29G005200	 1e-114
+  7-  5:	Ceric.01G105300	Ceric.29G005100	 4e-140
+## Alignment 8: score=474.0 e_value=4.4e-26 N=10 Chr01&Chr38 minus
+  8-  0:	Ceric.01G105200	Ceric.38G010500	  4e-13
+  8-  1:	Ceric.01G105300	Ceric.38G010400	 7e-141
+  8-  2:	Ceric.01G105400	Ceric.38G010300	 1e-127
+  8-  3:	Ceric.01G105500	Ceric.38G007700	  6e-36
+  8-  4:	Ceric.01G105600	Ceric.38G007600	  3e-31
+  8-  5:	Ceric.01G105700	Ceric.38G007500	  6e-16
+  8-  6:	Ceric.01G105800	Ceric.38G007400	  7e-20
+  8-  7:	Ceric.01G106000	Ceric.38G007300	  2e-56
+  8-  8:	Ceric.01G106100	Ceric.38G007200	  5e-23
+  8-  9:	Ceric.01G106200	Ceric.38G007100	  2e-20
+## Alignment 9: score=288.0 e_value=2.1e-08 N=6 Chr01&Chr682 minus
+  9-  0:	Ceric.01G056600	Ceric.1Z117300	  2e-74
+  9-  1:	Ceric.01G056900	Ceric.1Z117200	 2e-135
+  9-  2:	Ceric.01G057000	Ceric.1Z117000	  6e-11
+  9-  3:	Ceric.01G057200	Ceric.1Z116800	      0
+  9-  4:	Ceric.01G057400	Ceric.1Z116200	  6e-62
+  9-  5:	Ceric.01G057700	Ceric.1Z116000	  4e-69
+## Alignment 10: score=295.0 e_value=9.1e-08 N=6 Chr02&Chr02 minus
+ 10-  0:	Ceric.02G012700	Ceric.02G016600	      0
+ 10-  1:	Ceric.02G012800	Ceric.02G016500	      0
+ 10-  2:	Ceric.02G012900	Ceric.02G016400	      0
+ 10-  3:	Ceric.02G013000	Ceric.02G016100	  1e-26
+ 10-  4:	Ceric.02G013200	Ceric.02G015800	      0
+ 10-  5:	Ceric.02G013300	Ceric.02G015600	      0
+## Alignment 11: score=447.0 e_value=9.3e-16 N=9 Chr02&Chr05 plus
+ 11-  0:	Ceric.02G014400	Ceric.05G049900	  1e-19
+ 11-  1:	Ceric.02G014500	Ceric.05G050000	 4e-106
+ 11-  2:	Ceric.02G014600	Ceric.05G050100	      0
+ 11-  3:	Ceric.02G014700	Ceric.05G050300	 4e-160
+ 11-  4:	Ceric.02G014800	Ceric.05G050400	  3e-21
+ 11-  5:	Ceric.02G014900	Ceric.05G050500	  3e-95
+ 11-  6:	Ceric.02G015000	Ceric.05G050600	  1e-19
+ 11-  7:	Ceric.02G015300	Ceric.05G050900	  1e-83
+ 11-  8:	Ceric.02G015400	Ceric.05G051000	 6e-108
+## Alignment 12: score=396.0 e_value=5.2e-14 N=8 Chr02&Chr09 plus
+ 12-  0:	Ceric.02G013200	Ceric.09G047700	      0
+ 12-  1:	Ceric.02G013300	Ceric.09G047800	      0
+ 12-  2:	Ceric.02G013500	Ceric.09G047900	 7e-151
+ 12-  3:	Ceric.02G013600	Ceric.09G048000	 1e-126
+ 12-  4:	Ceric.02G013700	Ceric.09G048100	 1e-125
+ 12-  5:	Ceric.02G013800	Ceric.09G048200	 2e-155
+ 12-  6:	Ceric.02G014000	Ceric.09G048600	  4e-92
+ 12-  7:	Ceric.02G014100	Ceric.09G048700	      0
+## Alignment 13: score=535.0 e_value=8.6e-23 N=11 Chr02&Chr1163 plus
+ 13-  0:	Ceric.02G013000	Ceric.1Z161100	  3e-26
+ 13-  1:	Ceric.02G013100	Ceric.1Z161200	      0
+ 13-  2:	Ceric.02G013200	Ceric.1Z161400	      0
+ 13-  3:	Ceric.02G013500	Ceric.1Z161500	 2e-133
+ 13-  4:	Ceric.02G013600	Ceric.1Z161600	 2e-134
+ 13-  5:	Ceric.02G013700	Ceric.1Z161700	  1e-58
+ 13-  6:	Ceric.02G013800	Ceric.1Z161800	 9e-151
+ 13-  7:	Ceric.02G014000	Ceric.1Z161900	  3e-90
+ 13-  8:	Ceric.02G015000	Ceric.1Z162300	  2e-20
+ 13-  9:	Ceric.02G015300	Ceric.1Z162600	  1e-83
+ 13- 10:	Ceric.02G015400	Ceric.1Z162700	  6e-94
+## Alignment 14: score=494.0 e_value=2.5e-19 N=10 Chr02&Chr29 plus
+ 14-  0:	Ceric.02G013100	Ceric.29G032200	 1e-104
+ 14-  1:	Ceric.02G013200	Ceric.29G032500	  8e-50
+ 14-  2:	Ceric.02G013500	Ceric.29G032800	 3e-147
+ 14-  3:	Ceric.02G013600	Ceric.29G032900	  6e-66
+ 14-  4:	Ceric.02G013700	Ceric.29G033000	  5e-92
+ 14-  5:	Ceric.02G013800	Ceric.29G033100	 5e-150
+ 14-  6:	Ceric.02G014000	Ceric.29G033200	  1e-63
+ 14-  7:	Ceric.02G014200	Ceric.29G033400	      0
+ 14-  8:	Ceric.02G014300	Ceric.29G033500	 6e-151
+ 14-  9:	Ceric.02G014400	Ceric.29G033600	  1e-18
+## Alignment 15: score=545.0 e_value=4.5e-22 N=11 Chr02&Chr29 minus
+ 15-  0:	Ceric.02G011600	Ceric.29G006100	  1e-58
+ 15-  1:	Ceric.02G011700	Ceric.29G006000	 2e-161
+ 15-  2:	Ceric.02G011800	Ceric.29G005900	 1e-123
+ 15-  3:	Ceric.02G011900	Ceric.29G005800	      0
+ 15-  4:	Ceric.02G012100	Ceric.29G005500	  6e-11
+ 15-  5:	Ceric.02G012300	Ceric.29G005300	 3e-131
+ 15-  6:	Ceric.02G012400	Ceric.29G005200	 5e-112
+ 15-  7:	Ceric.02G012500	Ceric.29G005100	 8e-149
+ 15-  8:	Ceric.02G012700	Ceric.29G004900	      0
+ 15-  9:	Ceric.02G012800	Ceric.29G004700	  7e-24
+ 15- 10:	Ceric.02G012900	Ceric.29G004600	      0
+## Alignment 16: score=423.0 e_value=1.3e-32 N=9 Chr02&Chr33 plus
+ 16-  0:	Ceric.02G012800	Ceric.33G023000	  2e-71
+ 16-  1:	Ceric.02G012900	Ceric.33G023100	      0
+ 16-  2:	Ceric.02G013000	Ceric.33G023200	  1e-26
+ 16-  3:	Ceric.02G013100	Ceric.33G023300	      0
+ 16-  4:	Ceric.02G013200	Ceric.33G023500	      0
+ 16-  5:	Ceric.02G013300	Ceric.33G023700	      0
+ 16-  6:	Ceric.02G013500	Ceric.33G023800	 1e-103
+ 16-  7:	Ceric.02G013600	Ceric.33G023900	 1e-115
+ 16-  8:	Ceric.02G014600	Ceric.33G026400	  2e-16
+## Alignment 17: score=291.0 e_value=7.4e-10 N=6 Chr02&Chr33 plus
+ 17-  0:	Ceric.02G014300	Ceric.33G022300	 3e-154
+ 17-  1:	Ceric.02G014500	Ceric.33G022400	 9e-103
+ 17-  2:	Ceric.02G014700	Ceric.33G022700	 6e-158
+ 17-  3:	Ceric.02G014800	Ceric.33G022800	  3e-21
+ 17-  4:	Ceric.02G014900	Ceric.33G022900	  3e-55
+ 17-  5:	Ceric.02G015600	Ceric.33G023600	 3e-163
+## Alignment 18: score=1028.0 e_value=1.5e-60 N=21 Chr02&Chr38 plus
+ 18-  0:	Ceric.02G014200	Ceric.38G006500	      0
+ 18-  1:	Ceric.02G014300	Ceric.38G006600	 1e-155
+ 18-  2:	Ceric.02G014400	Ceric.38G006700	  1e-19
+ 18-  3:	Ceric.02G014500	Ceric.38G006800	 4e-106
+ 18-  4:	Ceric.02G014600	Ceric.38G006900	      0
+ 18-  5:	Ceric.02G014700	Ceric.38G007000	 4e-160
+ 18-  6:	Ceric.02G014800	Ceric.38G007100	  3e-21
+ 18-  7:	Ceric.02G014900	Ceric.38G007300	  3e-55
+ 18-  8:	Ceric.02G015000	Ceric.38G007400	  5e-21
+ 18-  9:	Ceric.02G015100	Ceric.38G007600	  9e-31
+ 18- 10:	Ceric.02G015200	Ceric.38G007700	  1e-35
+ 18- 11:	Ceric.02G015300	Ceric.38G007800	  1e-80
+ 18- 12:	Ceric.02G015400	Ceric.38G007900	 1e-110
+ 18- 13:	Ceric.02G015500	Ceric.38G008000	      0
+ 18- 14:	Ceric.02G015800	Ceric.38G009600	      0
+ 18- 15:	Ceric.02G016100	Ceric.38G009800	  1e-26
+ 18- 16:	Ceric.02G016300	Ceric.38G009900	 6e-125
+ 18- 17:	Ceric.02G016500	Ceric.38G010000	      0
+ 18- 18:	Ceric.02G016600	Ceric.38G010100	      0
+ 18- 19:	Ceric.02G016700	Ceric.38G010300	  1e-70
+ 18- 20:	Ceric.02G016800	Ceric.38G010400	  7e-93
+## Alignment 19: score=523.0 e_value=4.4e-24 N=11 Chr02&Chr38 minus
+ 19-  0:	Ceric.02G012400	Ceric.38G010500	  5e-13
+ 19-  1:	Ceric.02G012500	Ceric.38G010400	 1e-149
+ 19-  2:	Ceric.02G012600	Ceric.38G010300	  2e-86
+ 19-  3:	Ceric.02G012700	Ceric.38G010100	      0
+ 19-  4:	Ceric.02G012800	Ceric.38G010000	      0
+ 19-  5:	Ceric.02G012900	Ceric.38G009900	      0
+ 19-  6:	Ceric.02G013000	Ceric.38G009800	  1e-26
+ 19-  7:	Ceric.02G013100	Ceric.38G009700	      0
+ 19-  8:	Ceric.02G013200	Ceric.38G009600	      0
+ 19-  9:	Ceric.02G013400	Ceric.38G008000	      0
+ 19- 10:	Ceric.02G014500	Ceric.38G006800	 4e-106
+## Alignment 20: score=342.0 e_value=8.3e-11 N=7 Chr02&Chr76 plus
+ 20-  0:	Ceric.02G014300	Ceric.1Z018100	  9e-80
+ 20-  1:	Ceric.02G014600	Ceric.1Z018400	  5e-92
+ 20-  2:	Ceric.02G014800	Ceric.1Z018500	  3e-20
+ 20-  3:	Ceric.02G014900	Ceric.1Z018600	  6e-19
+ 20-  4:	Ceric.02G015000	Ceric.1Z019000	  3e-16
+ 20-  5:	Ceric.02G015300	Ceric.1Z019200	  4e-83
+ 20-  6:	Ceric.02G015400	Ceric.1Z019300	 4e-107
+## Alignment 21: score=612.0 e_value=2.5e-34 N=13 Chr02&Chr76 minus
+ 21-  0:	Ceric.02G011800	Ceric.1Z023500	  5e-97
+ 21-  1:	Ceric.02G012100	Ceric.1Z023200	  6e-11
+ 21-  2:	Ceric.02G012600	Ceric.1Z023000	  8e-85
+ 21-  3:	Ceric.02G013200	Ceric.1Z022700	 4e-125
+ 21-  4:	Ceric.02G013500	Ceric.1Z022600	  2e-92
+ 21-  5:	Ceric.02G013600	Ceric.1Z022500	 5e-121
+ 21-  6:	Ceric.02G013700	Ceric.1Z022400	 2e-123
+ 21-  7:	Ceric.02G013800	Ceric.1Z022300	  2e-54
+ 21-  8:	Ceric.02G013900	Ceric.1Z022200	  4e-61
+ 21-  9:	Ceric.02G014000	Ceric.1Z022100	  4e-91
+ 21- 10:	Ceric.02G014200	Ceric.1Z021900	      0
+ 21- 11:	Ceric.02G014400	Ceric.1Z021700	  1e-16
+ 21- 12:	Ceric.02G015400	Ceric.1Z019300	 4e-107
+## Alignment 22: score=265.0 e_value=1.2e-09 N=6 Chr04&Chr05 minus
+ 22-  0:	Ceric.04G025100	Ceric.05G047500	  5e-91
+ 22-  1:	Ceric.04G025300	Ceric.05G047100	      0
+ 22-  2:	Ceric.04G025400	Ceric.05G047000	 2e-102
+ 22-  3:	Ceric.04G025500	Ceric.05G045100	  8e-13
+ 22-  4:	Ceric.04G025600	Ceric.05G043600	  4e-67
+ 22-  5:	Ceric.04G025700	Ceric.05G043500	      0
+## Alignment 23: score=281.0 e_value=1.3e-23 N=6 Chr04&Chr35 plus
+ 23-  0:	Ceric.04G025300	Ceric.35G068000	      0
+ 23-  1:	Ceric.04G025400	Ceric.35G068100	 3e-103
+ 23-  2:	Ceric.04G025500	Ceric.35G068800	  8e-13
+ 23-  3:	Ceric.04G025600	Ceric.35G068900	  4e-67
+ 23-  4:	Ceric.04G025700	Ceric.35G069000	      0
+ 23-  5:	Ceric.04G027100	Ceric.35G069500	 5e-111
+## Alignment 24: score=670.0 e_value=1.1e-49 N=14 Chr05&Chr05 plus
+ 24-  0:	Ceric.05G040300	Ceric.05G048200	  2e-62
+ 24-  1:	Ceric.05G041000	Ceric.05G050600	  1e-19
+ 24-  2:	Ceric.05G041100	Ceric.05G050700	  4e-31
+ 24-  3:	Ceric.05G041300	Ceric.05G051000	 3e-108
+ 24-  4:	Ceric.05G041400	Ceric.05G051100	      0
+ 24-  5:	Ceric.05G041600	Ceric.05G051400	  3e-48
+ 24-  6:	Ceric.05G041700	Ceric.05G051500	 7e-111
+ 24-  7:	Ceric.05G041800	Ceric.05G051600	  3e-95
+ 24-  8:	Ceric.05G041900	Ceric.05G051700	      0
+ 24-  9:	Ceric.05G042100	Ceric.05G052000	  1e-77
+ 24- 10:	Ceric.05G042200	Ceric.05G052100	  2e-86
+ 24- 11:	Ceric.05G042300	Ceric.05G052200	  4e-34
+ 24- 12:	Ceric.05G042400	Ceric.05G052300	 7e-146
+ 24- 13:	Ceric.05G042600	Ceric.05G052400	  3e-70
+## Alignment 25: score=518.0 e_value=9.7e-33 N=11 Chr05&Chr05 minus
+ 25-  0:	Ceric.05G042000	Ceric.05G049400	  5e-68
+ 25-  1:	Ceric.05G042200	Ceric.05G049000	  3e-82
+ 25-  2:	Ceric.05G042300	Ceric.05G048900	  1e-91
+ 25-  3:	Ceric.05G042400	Ceric.05G048800	 9e-133
+ 25-  4:	Ceric.05G042700	Ceric.05G048500	  3e-81
+ 25-  5:	Ceric.05G042800	Ceric.05G048600	  2e-49
+ 25-  6:	Ceric.05G042900	Ceric.05G048400	  2e-55
+ 25-  7:	Ceric.05G043000	Ceric.05G048000	  9e-36
+ 25-  8:	Ceric.05G043100	Ceric.05G047900	  6e-55
+ 25-  9:	Ceric.05G043400	Ceric.05G047700	      0
+ 25- 10:	Ceric.05G044200	Ceric.05G045500	 4e-126
+## Alignment 26: score=398.0 e_value=8.8e-14 N=8 Chr05&Chr09 plus
+ 26-  0:	Ceric.05G046800	Ceric.09G048800	 3e-107
+ 26-  1:	Ceric.05G046900	Ceric.09G048900	 2e-117
+ 26-  2:	Ceric.05G047100	Ceric.09G049100	      0
+ 26-  3:	Ceric.05G047200	Ceric.09G049200	  6e-49
+ 26-  4:	Ceric.05G047300	Ceric.09G049300	      0
+ 26-  5:	Ceric.05G047500	Ceric.09G049400	 6e-123
+ 26-  6:	Ceric.05G047600	Ceric.09G049500	  3e-98
+ 26-  7:	Ceric.05G047700	Ceric.09G049600	      0
+## Alignment 27: score=269.0 e_value=1.5e-09 N=6 Chr05&Chr09 minus
+ 27-  0:	Ceric.05G043200	Ceric.09G049800	  3e-88
+ 27-  1:	Ceric.05G043300	Ceric.09G049700	      0
+ 27-  2:	Ceric.05G043400	Ceric.09G049600	      0
+ 27-  3:	Ceric.05G044600	Ceric.09G049200	  4e-48
+ 27-  4:	Ceric.05G045600	Ceric.09G048900	 7e-120
+ 27-  5:	Ceric.05G046800	Ceric.09G048800	 3e-107
+## Alignment 28: score=692.0 e_value=3.8e-31 N=14 Chr05&Chr1163 plus
+ 28-  0:	Ceric.05G041000	Ceric.1Z162300	  2e-20
+ 28-  1:	Ceric.05G041300	Ceric.1Z162700	  4e-94
+ 28-  2:	Ceric.05G041400	Ceric.1Z162800	      0
+ 28-  3:	Ceric.05G041500	Ceric.1Z162900	  7e-18
+ 28-  4:	Ceric.05G041600	Ceric.1Z163100	  5e-16
+ 28-  5:	Ceric.05G041700	Ceric.1Z163200	  1e-95
+ 28-  6:	Ceric.05G041800	Ceric.1Z163300	  4e-64
+ 28-  7:	Ceric.05G042000	Ceric.1Z163400	  3e-67
+ 28-  8:	Ceric.05G042100	Ceric.1Z163700	  1e-77
+ 28-  9:	Ceric.05G042200	Ceric.1Z163800	  8e-82
+ 28- 10:	Ceric.05G042300	Ceric.1Z163900	  2e-91
+ 28- 11:	Ceric.05G042400	Ceric.1Z164000	  1e-73
+ 28- 12:	Ceric.05G042500	Ceric.1Z164100	  6e-69
+ 28- 13:	Ceric.05G042700	Ceric.1Z164200	  1e-60
+## Alignment 29: score=496.0 e_value=2.7e-21 N=10 Chr05&Chr1163 plus
+ 29-  0:	Ceric.05G050800	Ceric.1Z162500	  7e-36
+ 29-  1:	Ceric.05G050900	Ceric.1Z162600	  1e-81
+ 29-  2:	Ceric.05G051000	Ceric.1Z162700	  1e-91
+ 29-  3:	Ceric.05G051200	Ceric.1Z162900	  7e-18
+ 29-  4:	Ceric.05G051300	Ceric.1Z163000	  4e-26
+ 29-  5:	Ceric.05G051400	Ceric.1Z163100	  3e-16
+ 29-  6:	Ceric.05G051600	Ceric.1Z163300	  3e-64
+ 29-  7:	Ceric.05G051900	Ceric.1Z163600	  2e-34
+ 29-  8:	Ceric.05G052000	Ceric.1Z163700	  1e-77
+ 29-  9:	Ceric.05G052100	Ceric.1Z163800	  8e-82
+## Alignment 30: score=334.0 e_value=3.5e-21 N=7 Chr05&Chr1163 minus
+ 30-  0:	Ceric.05G048500	Ceric.1Z164200	 3e-136
+ 30-  1:	Ceric.05G048900	Ceric.1Z163900	  1e-88
+ 30-  2:	Ceric.05G049100	Ceric.1Z163700	  1e-76
+ 30-  3:	Ceric.05G049200	Ceric.1Z163600	  3e-33
+ 30-  4:	Ceric.05G049300	Ceric.1Z163500	  1e-18
+ 30-  5:	Ceric.05G049400	Ceric.1Z163400	  1e-65
+ 30-  6:	Ceric.05G050800	Ceric.1Z162500	  7e-36
+## Alignment 31: score=289.0 e_value=2.9e-11 N=6 Chr05&Chr16 plus
+ 31-  0:	Ceric.05G049800	Ceric.16G060000	 5e-142
+ 31-  1:	Ceric.05G050000	Ceric.16G060200	 2e-118
+ 31-  2:	Ceric.05G050200	Ceric.16G060400	  7e-55
+ 31-  3:	Ceric.05G051200	Ceric.16G060900	  7e-18
+ 31-  4:	Ceric.05G051300	Ceric.16G061000	  2e-15
+ 31-  5:	Ceric.05G051400	Ceric.16G061100	  6e-45
+## Alignment 32: score=281.0 e_value=1.5e-09 N=6 Chr05&Chr16 plus
+ 32-  0:	Ceric.05G041000	Ceric.16G060600	  8e-21
+ 32-  1:	Ceric.05G041400	Ceric.16G060800	      0
+ 32-  2:	Ceric.05G041500	Ceric.16G060900	  7e-18
+ 32-  3:	Ceric.05G041600	Ceric.16G061100	  4e-45
+ 32-  4:	Ceric.05G042400	Ceric.16G061300	  1e-70
+ 32-  5:	Ceric.05G043300	Ceric.16G061600	 2e-172
+## Alignment 33: score=268.0 e_value=1.4e-11 N=6 Chr05&Chr18 plus
+ 33-  0:	Ceric.05G044600	Ceric.18G052900	  4e-48
+ 33-  1:	Ceric.05G044200	Ceric.18G053300	 6e-128
+ 33-  2:	Ceric.05G045400	Ceric.18G053400	  4e-18
+ 33-  3:	Ceric.05G046600	Ceric.18G053500	  8e-56
+ 33-  4:	Ceric.05G047700	Ceric.18G054100	      0
+ 33-  5:	Ceric.05G048200	Ceric.18G054400	  4e-46
+## Alignment 34: score=774.0 e_value=3.4e-43 N=16 Chr05&Chr18 minus
+ 34-  0:	Ceric.05G043100	Ceric.18G054400	  2e-47
+ 34-  1:	Ceric.05G043200	Ceric.18G054300	  3e-88
+ 34-  2:	Ceric.05G043300	Ceric.18G054200	      0
+ 34-  3:	Ceric.05G043400	Ceric.18G054100	      0
+ 34-  4:	Ceric.05G043500	Ceric.18G054000	      0
+ 34-  5:	Ceric.05G045000	Ceric.18G053900	  4e-65
+ 34-  6:	Ceric.05G046300	Ceric.18G053800	  2e-13
+ 34-  7:	Ceric.05G046400	Ceric.18G053700	      0
+ 34-  8:	Ceric.05G046500	Ceric.18G053600	      0
+ 34-  9:	Ceric.05G046600	Ceric.18G053500	  8e-56
+ 34- 10:	Ceric.05G046700	Ceric.18G053400	  6e-18
+ 34- 11:	Ceric.05G046800	Ceric.18G053300	 1e-107
+ 34- 12:	Ceric.05G046900	Ceric.18G053200	 2e-117
+ 34- 13:	Ceric.05G047000	Ceric.18G053100	 2e-147
+ 34- 14:	Ceric.05G047100	Ceric.18G053000	      0
+ 34- 15:	Ceric.05G047200	Ceric.18G052900	  6e-49
+## Alignment 35: score=499.0 e_value=5.1e-19 N=10 Chr05&Chr18 minus
+ 35-  0:	Ceric.05G043600	Ceric.18G053900	  5e-67
+ 35-  1:	Ceric.05G043700	Ceric.18G053800	  2e-13
+ 35-  2:	Ceric.05G043800	Ceric.18G053700	 4e-153
+ 35-  3:	Ceric.05G043900	Ceric.18G053600	      0
+ 35-  4:	Ceric.05G044000	Ceric.18G053500	  5e-56
+ 35-  5:	Ceric.05G044100	Ceric.18G053400	  1e-17
+ 35-  6:	Ceric.05G044300	Ceric.18G053200	 4e-118
+ 35-  7:	Ceric.05G044400	Ceric.18G053100	 1e-148
+ 35-  8:	Ceric.05G044500	Ceric.18G053000	      0
+ 35-  9:	Ceric.05G044600	Ceric.18G052900	  4e-48
+## Alignment 36: score=386.0 e_value=2.4e-15 N=8 Chr05&Chr18 minus
+ 36-  0:	Ceric.05G044400	Ceric.18G055000	 2e-145
+ 36-  1:	Ceric.05G044600	Ceric.18G054800	  4e-48
+ 36-  2:	Ceric.05G045100	Ceric.18G053800	  2e-13
+ 36-  3:	Ceric.05G045200	Ceric.18G053700	      0
+ 36-  4:	Ceric.05G045300	Ceric.18G053500	  5e-56
+ 36-  5:	Ceric.05G045400	Ceric.18G053400	  4e-18
+ 36-  6:	Ceric.05G045600	Ceric.18G053200	 7e-120
+ 36-  7:	Ceric.05G045800	Ceric.18G052900	  2e-48
+## Alignment 37: score=311.0 e_value=7.3e-12 N=7 Chr05&Chr20 plus
+ 37-  0:	Ceric.05G056700	Ceric.20G020400	  3e-37
+ 37-  1:	Ceric.05G056900	Ceric.20G022300	  4e-76
+ 37-  2:	Ceric.05G057100	Ceric.20G023000	 2e-161
+ 37-  3:	Ceric.05G057300	Ceric.20G023500	 3e-151
+ 37-  4:	Ceric.05G057500	Ceric.20G023800	      0
+ 37-  5:	Ceric.05G058300	Ceric.20G024700	 3e-135
+ 37-  6:	Ceric.05G058400	Ceric.20G024900	  1e-58
+## Alignment 38: score=519.0 e_value=2.3e-30 N=11 Chr05&Chr29 plus
+ 38-  0:	Ceric.05G040100	Ceric.29G003100	      0
+ 38-  1:	Ceric.05G040200	Ceric.29G003200	  6e-86
+ 38-  2:	Ceric.05G041600	Ceric.29G003500	  2e-48
+ 38-  3:	Ceric.05G041700	Ceric.29G003700	 2e-113
+ 38-  4:	Ceric.05G041800	Ceric.29G003800	 4e-134
+ 38-  5:	Ceric.05G041900	Ceric.29G003900	      0
+ 38-  6:	Ceric.05G042100	Ceric.29G004100	  1e-77
+ 38-  7:	Ceric.05G042200	Ceric.29G004200	  6e-85
+ 38-  8:	Ceric.05G042300	Ceric.29G004300	  6e-94
+ 38-  9:	Ceric.05G042400	Ceric.29G004400	 2e-141
+ 38- 10:	Ceric.05G042900	Ceric.29G006100	  8e-53
+## Alignment 39: score=447.0 e_value=1.5e-16 N=9 Chr05&Chr29 plus
+ 39-  0:	Ceric.05G051300	Ceric.29G003400	  2e-26
+ 39-  1:	Ceric.05G051400	Ceric.29G003500	  3e-48
+ 39-  2:	Ceric.05G051500	Ceric.29G003700	 3e-109
+ 39-  3:	Ceric.05G051600	Ceric.29G003800	  2e-94
+ 39-  4:	Ceric.05G051700	Ceric.29G003900	      0
+ 39-  5:	Ceric.05G051900	Ceric.29G004000	  2e-34
+ 39-  6:	Ceric.05G052000	Ceric.29G004100	  1e-77
+ 39-  7:	Ceric.05G052100	Ceric.29G004200	  6e-85
+ 39-  8:	Ceric.05G052300	Ceric.29G004400	 1e-136
+## Alignment 40: score=376.0 e_value=3.2e-16 N=8 Chr05&Chr29 minus
+ 40-  0:	Ceric.05G040600	Ceric.29G006000	  1e-88
+ 40-  1:	Ceric.05G040700	Ceric.29G005700	      0
+ 40-  2:	Ceric.05G040800	Ceric.29G005600	  4e-34
+ 40-  3:	Ceric.05G042200	Ceric.29G004200	  6e-85
+ 40-  4:	Ceric.05G043000	Ceric.29G003300	  6e-36
+ 40-  5:	Ceric.05G043200	Ceric.29G003200	  3e-88
+ 40-  6:	Ceric.05G043300	Ceric.29G003100	      0
+ 40-  7:	Ceric.05G043400	Ceric.29G003000	      0
+## Alignment 41: score=279.0 e_value=1.5e-15 N=6 Chr05&Chr29 minus
+ 41-  0:	Ceric.05G048700	Ceric.29G004500	  8e-79
+ 41-  1:	Ceric.05G048800	Ceric.29G004400	 7e-134
+ 41-  2:	Ceric.05G048900	Ceric.29G004300	  2e-90
+ 41-  3:	Ceric.05G049100	Ceric.29G004100	  1e-76
+ 41-  4:	Ceric.05G049200	Ceric.29G004000	  3e-33
+ 41-  5:	Ceric.05G051300	Ceric.29G003400	  2e-26
+## Alignment 42: score=298.0 e_value=5.7e-08 N=6 Chr05&Chr33 plus
+ 42-  0:	Ceric.05G049800	Ceric.33G022300	 2e-116
+ 42-  1:	Ceric.05G050000	Ceric.33G022400	 3e-131
+ 42-  2:	Ceric.05G050100	Ceric.33G022500	      0
+ 42-  3:	Ceric.05G050300	Ceric.33G022700	 1e-158
+ 42-  4:	Ceric.05G050400	Ceric.33G022800	  3e-21
+ 42-  5:	Ceric.05G050500	Ceric.33G022900	  3e-51
+## Alignment 43: score=624.0 e_value=1.1e-32 N=13 Chr05&Chr35 minus
+ 43-  0:	Ceric.05G043400	Ceric.35G069100	      0
+ 43-  1:	Ceric.05G043500	Ceric.35G069000	      0
+ 43-  2:	Ceric.05G043600	Ceric.35G068900	  5e-67
+ 43-  3:	Ceric.05G045100	Ceric.35G068800	  1e-13
+ 43-  4:	Ceric.05G046400	Ceric.35G068700	      0
+ 43-  5:	Ceric.05G046500	Ceric.35G068600	      0
+ 43-  6:	Ceric.05G046600	Ceric.35G068500	  8e-56
+ 43-  7:	Ceric.05G046700	Ceric.35G068400	  6e-18
+ 43-  8:	Ceric.05G046800	Ceric.35G068300	 1e-107
+ 43-  9:	Ceric.05G046900	Ceric.35G068200	 2e-117
+ 43- 10:	Ceric.05G047000	Ceric.35G068100	 5e-149
+ 43- 11:	Ceric.05G047100	Ceric.35G068000	      0
+ 43- 12:	Ceric.05G047200	Ceric.35G067900	  6e-49
+## Alignment 44: score=449.0 e_value=6e-16 N=9 Chr05&Chr35 minus
+ 44-  0:	Ceric.05G043700	Ceric.35G068800	  1e-13
+ 44-  1:	Ceric.05G043800	Ceric.35G068700	 8e-153
+ 44-  2:	Ceric.05G043900	Ceric.35G068600	      0
+ 44-  3:	Ceric.05G044000	Ceric.35G068500	  5e-56
+ 44-  4:	Ceric.05G044100	Ceric.35G068400	  1e-17
+ 44-  5:	Ceric.05G044300	Ceric.35G068200	 4e-118
+ 44-  6:	Ceric.05G044400	Ceric.35G068100	 3e-150
+ 44-  7:	Ceric.05G044500	Ceric.35G068000	      0
+ 44-  8:	Ceric.05G044600	Ceric.35G067900	  4e-48
+## Alignment 45: score=297.0 e_value=2.4e-08 N=6 Chr05&Chr35 minus
+ 45-  0:	Ceric.05G045200	Ceric.35G068700	      0
+ 45-  1:	Ceric.05G045300	Ceric.35G068500	  5e-56
+ 45-  2:	Ceric.05G045400	Ceric.35G068400	  4e-18
+ 45-  3:	Ceric.05G045600	Ceric.35G068200	 7e-120
+ 45-  4:	Ceric.05G045700	Ceric.35G068000	      0
+ 45-  5:	Ceric.05G045800	Ceric.35G067900	  2e-48
+## Alignment 46: score=1243.0 e_value=6.4e-71 N=25 Chr05&Chr38 plus
+ 46-  0:	Ceric.05G049700	Ceric.38G006500	  6e-91
+ 46-  1:	Ceric.05G049800	Ceric.38G006600	 3e-116
+ 46-  2:	Ceric.05G049900	Ceric.38G006700	  1e-19
+ 46-  3:	Ceric.05G050000	Ceric.38G006800	 1e-134
+ 46-  4:	Ceric.05G050100	Ceric.38G006900	      0
+ 46-  5:	Ceric.05G050300	Ceric.38G007000	 9e-161
+ 46-  6:	Ceric.05G050400	Ceric.38G007100	  3e-21
+ 46-  7:	Ceric.05G050600	Ceric.38G007400	  1e-19
+ 46-  8:	Ceric.05G050700	Ceric.38G007600	  4e-31
+ 46-  9:	Ceric.05G050800	Ceric.38G007700	  8e-35
+ 46- 10:	Ceric.05G050900	Ceric.38G007800	  1e-78
+ 46- 11:	Ceric.05G051000	Ceric.38G007900	 3e-108
+ 46- 12:	Ceric.05G051100	Ceric.38G008000	      0
+ 46- 13:	Ceric.05G051300	Ceric.38G008200	  2e-26
+ 46- 14:	Ceric.05G051400	Ceric.38G008300	  3e-48
+ 46- 15:	Ceric.05G051500	Ceric.38G008400	 7e-111
+ 46- 16:	Ceric.05G051600	Ceric.38G008500	  3e-95
+ 46- 17:	Ceric.05G051700	Ceric.38G008600	      0
+ 46- 18:	Ceric.05G051800	Ceric.38G008700	  2e-18
+ 46- 19:	Ceric.05G051900	Ceric.38G008800	  2e-34
+ 46- 20:	Ceric.05G052000	Ceric.38G008900	  1e-77
+ 46- 21:	Ceric.05G052100	Ceric.38G009000	  2e-86
+ 46- 22:	Ceric.05G052200	Ceric.38G009100	  4e-34
+ 46- 23:	Ceric.05G052300	Ceric.38G009200	 7e-146
+ 46- 24:	Ceric.05G052400	Ceric.38G009500	  7e-71
+## Alignment 47: score=743.0 e_value=2.5e-34 N=15 Chr05&Chr38 plus
+ 47-  0:	Ceric.05G041000	Ceric.38G007400	  5e-21
+ 47-  1:	Ceric.05G041100	Ceric.38G007600	  3e-31
+ 47-  2:	Ceric.05G041200	Ceric.38G007700	  6e-36
+ 47-  3:	Ceric.05G041300	Ceric.38G007900	 8e-111
+ 47-  4:	Ceric.05G041400	Ceric.38G008000	      0
+ 47-  5:	Ceric.05G041600	Ceric.38G008300	  2e-48
+ 47-  6:	Ceric.05G041700	Ceric.38G008400	 7e-115
+ 47-  7:	Ceric.05G041800	Ceric.38G008500	 5e-135
+ 47-  8:	Ceric.05G041900	Ceric.38G008600	      0
+ 47-  9:	Ceric.05G042100	Ceric.38G008900	  1e-77
+ 47- 10:	Ceric.05G042200	Ceric.38G009000	  2e-86
+ 47- 11:	Ceric.05G042300	Ceric.38G009100	  5e-95
+ 47- 12:	Ceric.05G042400	Ceric.38G009200	 2e-150
+ 47- 13:	Ceric.05G042500	Ceric.38G009300	  1e-70
+ 47- 14:	Ceric.05G042600	Ceric.38G009500	  4e-72
+## Alignment 48: score=388.0 e_value=2.5e-26 N=8 Chr05&Chr38 minus
+ 48-  0:	Ceric.05G048700	Ceric.38G009300	  7e-79
+ 48-  1:	Ceric.05G048800	Ceric.38G009200	 9e-133
+ 48-  2:	Ceric.05G048900	Ceric.38G009100	  1e-91
+ 48-  3:	Ceric.05G049000	Ceric.38G009000	  3e-82
+ 48-  4:	Ceric.05G049100	Ceric.38G008900	  1e-76
+ 48-  5:	Ceric.05G049200	Ceric.38G008800	  3e-33
+ 48-  6:	Ceric.05G049300	Ceric.38G008700	  4e-19
+ 48-  7:	Ceric.05G050600	Ceric.38G007400	  1e-19
+## Alignment 49: score=537.0 e_value=3.4e-26 N=11 Chr05&Chr76 plus
+ 49-  0:	Ceric.05G041000	Ceric.1Z019000	  3e-16
+ 49-  1:	Ceric.05G041300	Ceric.1Z019300	 8e-107
+ 49-  2:	Ceric.05G041700	Ceric.1Z019500	 2e-111
+ 49-  3:	Ceric.05G041800	Ceric.1Z019600	 1e-106
+ 49-  4:	Ceric.05G041900	Ceric.1Z019700	      0
+ 49-  5:	Ceric.05G042000	Ceric.1Z019800	  2e-70
+ 49-  6:	Ceric.05G042200	Ceric.1Z019900	  1e-44
+ 49-  7:	Ceric.05G042300	Ceric.1Z020000	  9e-90
+ 49-  8:	Ceric.05G042500	Ceric.1Z020100	  5e-69
+ 49-  9:	Ceric.05G042700	Ceric.1Z020200	  2e-69
+ 49- 10:	Ceric.05G043300	Ceric.1Z020700	      0
+## Alignment 50: score=381.0 e_value=2e-14 N=8 Chr05&Chr76 plus
+ 50-  0:	Ceric.05G049700	Ceric.1Z018000	  4e-70
+ 50-  1:	Ceric.05G050000	Ceric.1Z018300	 3e-100
+ 50-  2:	Ceric.05G050500	Ceric.1Z018600	  3e-20
+ 50-  3:	Ceric.05G050800	Ceric.1Z019100	  2e-17
+ 50-  4:	Ceric.05G050900	Ceric.1Z019200	  2e-81
+ 50-  5:	Ceric.05G051000	Ceric.1Z019300	 2e-104
+ 50-  6:	Ceric.05G051700	Ceric.1Z019700	      0
+ 50-  7:	Ceric.05G052100	Ceric.1Z019900	  1e-44
+## Alignment 51: score=272.0 e_value=3.9e-13 N=6 Chr05&Chr76 minus
+ 51-  0:	Ceric.05G046100	Ceric.1Z020900	 1e-107
+ 51-  1:	Ceric.05G047800	Ceric.1Z020600	      0
+ 51-  2:	Ceric.05G048500	Ceric.1Z020200	 9e-122
+ 51-  3:	Ceric.05G048700	Ceric.1Z020100	  5e-76
+ 51-  4:	Ceric.05G048900	Ceric.1Z020000	  7e-86
+ 51-  5:	Ceric.05G049400	Ceric.1Z019800	  1e-68
+## Alignment 52: score=258.0 e_value=1.2e-09 N=6 Chr05&Chr76 minus
+ 52-  0:	Ceric.05G041300	Ceric.1Z021300	  8e-90
+ 52-  1:	Ceric.05G041400	Ceric.1Z021200	      0
+ 52-  2:	Ceric.05G041700	Ceric.1Z020900	 1e-108
+ 52-  3:	Ceric.05G043000	Ceric.1Z020800	  1e-32
+ 52-  4:	Ceric.05G043400	Ceric.1Z020600	      0
+ 52-  5:	Ceric.05G044800	Ceric.1Z019600	 5e-106
+## Alignment 53: score=396.0 e_value=1.3e-14 N=8 Chr09&Chr1163 plus
+ 53-  0:	Ceric.09G047600	Ceric.1Z161300	  9e-56
+ 53-  1:	Ceric.09G047700	Ceric.1Z161400	      0
+ 53-  2:	Ceric.09G047900	Ceric.1Z161500	 3e-135
+ 53-  3:	Ceric.09G048000	Ceric.1Z161600	 8e-137
+ 53-  4:	Ceric.09G048100	Ceric.1Z161700	  3e-60
+ 53-  5:	Ceric.09G048200	Ceric.1Z161800	 6e-172
+ 53-  6:	Ceric.09G048600	Ceric.1Z161900	  7e-90
+ 53-  7:	Ceric.09G048700	Ceric.1Z162000	      0
+## Alignment 54: score=348.0 e_value=8.4e-12 N=7 Chr09&Chr18 minus
+ 54-  0:	Ceric.09G049000	Ceric.18G055000	      0
+ 54-  1:	Ceric.09G049100	Ceric.18G054900	      0
+ 54-  2:	Ceric.09G049200	Ceric.18G054800	  6e-49
+ 54-  3:	Ceric.09G049300	Ceric.18G054700	      0
+ 54-  4:	Ceric.09G049400	Ceric.18G054600	      0
+ 54-  5:	Ceric.09G049500	Ceric.18G054500	 4e-138
+ 54-  6:	Ceric.09G049700	Ceric.18G054200	      0
+## Alignment 55: score=347.0 e_value=2.1e-11 N=7 Chr09&Chr18 minus
+ 55-  0:	Ceric.09G081800	Ceric.18G053700	 2e-175
+ 55-  1:	Ceric.09G081900	Ceric.18G053500	  3e-53
+ 55-  2:	Ceric.09G082000	Ceric.18G053400	  4e-19
+ 55-  3:	Ceric.09G082100	Ceric.18G053300	 2e-127
+ 55-  4:	Ceric.09G082200	Ceric.18G053200	 5e-112
+ 55-  5:	Ceric.09G082500	Ceric.18G053000	 1e-104
+ 55-  6:	Ceric.09G082600	Ceric.18G052900	  5e-47
+## Alignment 56: score=446.0 e_value=1.1e-16 N=9 Chr09&Chr29 plus
+ 56-  0:	Ceric.09G047600	Ceric.29G032400	  2e-28
+ 56-  1:	Ceric.09G047700	Ceric.29G032600	      0
+ 56-  2:	Ceric.09G047800	Ceric.29G032700	      0
+ 56-  3:	Ceric.09G047900	Ceric.29G032800	 3e-149
+ 56-  4:	Ceric.09G048000	Ceric.29G032900	  9e-68
+ 56-  5:	Ceric.09G048100	Ceric.29G033000	  1e-93
+ 56-  6:	Ceric.09G048200	Ceric.29G033100	 2e-172
+ 56-  7:	Ceric.09G048600	Ceric.29G033200	  9e-65
+ 56-  8:	Ceric.09G048700	Ceric.29G033300	      0
+## Alignment 57: score=299.0 e_value=1.2e-08 N=6 Chr09&Chr33 plus
+ 57-  0:	Ceric.09G049200	Ceric.33G037900	  1e-53
+ 57-  1:	Ceric.09G049300	Ceric.33G038000	      0
+ 57-  2:	Ceric.09G049400	Ceric.33G038200	      0
+ 57-  3:	Ceric.09G049500	Ceric.33G038300	 2e-154
+ 57-  4:	Ceric.09G049600	Ceric.33G038400	      0
+ 57-  5:	Ceric.09G049700	Ceric.33G038500	      0
+## Alignment 58: score=347.0 e_value=9.3e-11 N=7 Chr09&Chr35 minus
+ 58-  0:	Ceric.09G081800	Ceric.35G068700	 5e-175
+ 58-  1:	Ceric.09G081900	Ceric.35G068500	  3e-53
+ 58-  2:	Ceric.09G082100	Ceric.35G068300	 2e-127
+ 58-  3:	Ceric.09G082200	Ceric.35G068200	 5e-112
+ 58-  4:	Ceric.09G082300	Ceric.35G068100	  1e-73
+ 58-  5:	Ceric.09G082500	Ceric.35G068000	 1e-104
+ 58-  6:	Ceric.09G082600	Ceric.35G067900	  5e-47
+## Alignment 59: score=300.0 e_value=3.3e-08 N=6 Chr09&Chr35 minus
+ 59-  0:	Ceric.09G048800	Ceric.35G068300	 8e-117
+ 59-  1:	Ceric.09G048900	Ceric.35G068200	 7e-120
+ 59-  2:	Ceric.09G049000	Ceric.35G068100	 2e-145
+ 59-  3:	Ceric.09G049100	Ceric.35G068000	      0
+ 59-  4:	Ceric.09G049200	Ceric.35G067900	  6e-49
+ 59-  5:	Ceric.09G049300	Ceric.35G067800	      0
+## Alignment 60: score=335.0 e_value=1.8e-15 N=7 Chr09&Chr76 minus
+ 60-  0:	Ceric.09G047900	Ceric.1Z022600	  2e-92
+ 60-  1:	Ceric.09G048000	Ceric.1Z022500	 2e-123
+ 60-  2:	Ceric.09G048100	Ceric.1Z022400	 3e-126
+ 60-  3:	Ceric.09G048200	Ceric.1Z022300	  2e-54
+ 60-  4:	Ceric.09G048600	Ceric.1Z022100	  9e-93
+ 60-  5:	Ceric.09G048700	Ceric.1Z022000	 2e-104
+ 60-  6:	Ceric.09G049700	Ceric.1Z020700	      0
+## Alignment 61: score=256.0 e_value=9.8e-09 N=6 Chr11&Chr22 minus
+ 61-  0:	Ceric.11G026700	Ceric.22G009500	      0
+ 61-  1:	Ceric.11G027300	Ceric.22G009100	 8e-118
+ 61-  2:	Ceric.11G028400	Ceric.22G008000	      0
+ 61-  3:	Ceric.11G028700	Ceric.22G007700	      0
+ 61-  4:	Ceric.11G028900	Ceric.22G007200	 5e-167
+ 61-  5:	Ceric.11G030500	Ceric.22G004800	      0
+## Alignment 62: score=254.0 e_value=7e-10 N=6 Chr11&Chr23 minus
+ 62-  0:	Ceric.11G052600	Ceric.23G011100	  9e-47
+ 62-  1:	Ceric.11G053400	Ceric.23G010200	      0
+ 62-  2:	Ceric.11G054000	Ceric.23G010000	      0
+ 62-  3:	Ceric.11G056100	Ceric.23G009200	      0
+ 62-  4:	Ceric.11G056200	Ceric.23G009100	 1e-153
+ 62-  5:	Ceric.11G056300	Ceric.23G007600	  2e-56
+## Alignment 63: score=346.0 e_value=4.2e-11 N=7 Chr1163&Chr29 plus
+ 63-  0:	Ceric.1Z163100	Ceric.29G003500	  5e-16
+ 63-  1:	Ceric.1Z163300	Ceric.29G003800	  3e-64
+ 63-  2:	Ceric.1Z163600	Ceric.29G004000	  2e-34
+ 63-  3:	Ceric.1Z163700	Ceric.29G004100	  1e-77
+ 63-  4:	Ceric.1Z163800	Ceric.29G004200	  2e-81
+ 63-  5:	Ceric.1Z163900	Ceric.29G004300	  7e-90
+ 63-  6:	Ceric.1Z164000	Ceric.29G004400	  8e-74
+## Alignment 64: score=344.0 e_value=5.9e-11 N=7 Chr1163&Chr29 plus
+ 64-  0:	Ceric.1Z161200	Ceric.29G032200	 9e-104
+ 64-  1:	Ceric.1Z161300	Ceric.29G032400	  2e-28
+ 64-  2:	Ceric.1Z161400	Ceric.29G032600	      0
+ 64-  3:	Ceric.1Z161500	Ceric.29G032800	 1e-131
+ 64-  4:	Ceric.1Z161600	Ceric.29G032900	  2e-65
+ 64-  5:	Ceric.1Z161800	Ceric.29G033100	 9e-167
+ 64-  6:	Ceric.1Z162100	Ceric.29G033400	      0
+## Alignment 65: score=889.0 e_value=5e-47 N=18 Chr1163&Chr38 plus
+ 65-  0:	Ceric.1Z162100	Ceric.38G006500	      0
+ 65-  1:	Ceric.1Z162300	Ceric.38G007400	  2e-20
+ 65-  2:	Ceric.1Z162400	Ceric.38G007500	  4e-14
+ 65-  3:	Ceric.1Z162500	Ceric.38G007700	  5e-34
+ 65-  4:	Ceric.1Z162600	Ceric.38G007800	  2e-79
+ 65-  5:	Ceric.1Z162700	Ceric.38G007900	  4e-94
+ 65-  6:	Ceric.1Z162800	Ceric.38G008000	      0
+ 65-  7:	Ceric.1Z162900	Ceric.38G008100	  7e-18
+ 65-  8:	Ceric.1Z163100	Ceric.38G008300	  5e-16
+ 65-  9:	Ceric.1Z163200	Ceric.38G008400	  1e-95
+ 65- 10:	Ceric.1Z163300	Ceric.38G008500	  4e-64
+ 65- 11:	Ceric.1Z163500	Ceric.38G008700	  1e-18
+ 65- 12:	Ceric.1Z163600	Ceric.38G008800	  2e-34
+ 65- 13:	Ceric.1Z163700	Ceric.38G008900	  1e-77
+ 65- 14:	Ceric.1Z163800	Ceric.38G009000	  8e-82
+ 65- 15:	Ceric.1Z163900	Ceric.38G009100	  2e-91
+ 65- 16:	Ceric.1Z164000	Ceric.38G009200	  1e-73
+ 65- 17:	Ceric.1Z164100	Ceric.38G009300	  2e-69
+## Alignment 66: score=327.0 e_value=4.4e-12 N=7 Chr1163&Chr76 plus
+ 66-  0:	Ceric.1Z162100	Ceric.1Z018000	  2e-68
+ 66-  1:	Ceric.1Z162500	Ceric.1Z019100	  2e-17
+ 66-  2:	Ceric.1Z162600	Ceric.1Z019200	  1e-82
+ 66-  3:	Ceric.1Z163200	Ceric.1Z019500	 9e-138
+ 66-  4:	Ceric.1Z163400	Ceric.1Z019800	  5e-68
+ 66-  5:	Ceric.1Z164100	Ceric.1Z020100	  1e-67
+ 66-  6:	Ceric.1Z164200	Ceric.1Z020200	 1e-115
+## Alignment 67: score=432.0 e_value=2e-20 N=9 Chr1163&Chr76 minus
+ 67-  0:	Ceric.1Z161600	Ceric.1Z022500	 2e-131
+ 67-  1:	Ceric.1Z161700	Ceric.1Z022400	  2e-58
+ 67-  2:	Ceric.1Z161800	Ceric.1Z022300	  2e-53
+ 67-  3:	Ceric.1Z161900	Ceric.1Z022100	  6e-90
+ 67-  4:	Ceric.1Z162100	Ceric.1Z021900	      0
+ 67-  5:	Ceric.1Z162700	Ceric.1Z021300	  4e-35
+ 67-  6:	Ceric.1Z162900	Ceric.1Z021100	  2e-17
+ 67-  7:	Ceric.1Z163000	Ceric.1Z021000	  3e-25
+ 67-  8:	Ceric.1Z164100	Ceric.1Z020100	  1e-67
+## Alignment 68: score=258.0 e_value=1.3e-09 N=6 Chr13&Chr14 minus
+ 68-  0:	Ceric.13G000800	Ceric.14G072900	  1e-65
+ 68-  1:	Ceric.13G001100	Ceric.14G071600	  1e-34
+ 68-  2:	Ceric.13G002100	Ceric.14G070600	 1e-137
+ 68-  3:	Ceric.13G002200	Ceric.14G070400	 2e-161
+ 68-  4:	Ceric.13G002400	Ceric.14G069900	      0
+ 68-  5:	Ceric.13G003200	Ceric.14G068200	  3e-68
+## Alignment 69: score=296.0 e_value=1.2e-08 N=6 Chr13&Chr29 plus
+ 69-  0:	Ceric.13G052600	Ceric.29G005200	 2e-108
+ 69-  1:	Ceric.13G052800	Ceric.29G005500	  6e-11
+ 69-  2:	Ceric.13G052900	Ceric.29G005600	  1e-22
+ 69-  3:	Ceric.13G053000	Ceric.29G005800	      0
+ 69-  4:	Ceric.13G053100	Ceric.29G005900	 2e-120
+ 69-  5:	Ceric.13G053200	Ceric.29G006100	  3e-48
+## Alignment 70: score=270.0 e_value=2.3e-11 N=6 Chr15&Chr15 minus
+ 70-  0:	Ceric.15G010000	Ceric.15G024100	      0
+ 70-  1:	Ceric.15G011100	Ceric.15G024000	 8e-118
+ 70-  2:	Ceric.15G011200	Ceric.15G023900	  2e-66
+ 70-  3:	Ceric.15G012000	Ceric.15G022800	  3e-38
+ 70-  4:	Ceric.15G012100	Ceric.15G022500	      0
+ 70-  5:	Ceric.15G013000	Ceric.15G022300	 2e-126
+## Alignment 71: score=250.0 e_value=8e-06 N=5 Chr16&Chr18 minus
+ 71-  0:	Ceric.16G017600	Ceric.18G053700	      0
+ 71-  1:	Ceric.16G017700	Ceric.18G053600	      0
+ 71-  2:	Ceric.16G017800	Ceric.18G053500	  1e-56
+ 71-  3:	Ceric.16G017900	Ceric.18G053400	  1e-17
+ 71-  4:	Ceric.16G018000	Ceric.18G053300	  3e-72
+## Alignment 72: score=280.0 e_value=2.3e-28 N=6 Chr16&Chr35 minus
+ 72-  0:	Ceric.16G017600	Ceric.35G068700	      0
+ 72-  1:	Ceric.16G017700	Ceric.35G068600	      0
+ 72-  2:	Ceric.16G017800	Ceric.35G068500	  1e-56
+ 72-  3:	Ceric.16G017900	Ceric.35G068400	  1e-17
+ 72-  4:	Ceric.16G018000	Ceric.35G068300	  3e-72
+ 72-  5:	Ceric.16G018700	Ceric.35G066200	  4e-18
+## Alignment 73: score=786.0 e_value=9.9e-40 N=16 Chr16&Chr38 plus
+ 73-  0:	Ceric.16G059900	Ceric.38G006500	      0
+ 73-  1:	Ceric.16G060000	Ceric.38G006600	 4e-166
+ 73-  2:	Ceric.16G060200	Ceric.38G006800	 2e-118
+ 73-  3:	Ceric.16G060300	Ceric.38G006900	  8e-64
+ 73-  4:	Ceric.16G060400	Ceric.38G007000	  5e-90
+ 73-  5:	Ceric.16G060500	Ceric.38G007300	  2e-54
+ 73-  6:	Ceric.16G060600	Ceric.38G007400	  8e-21
+ 73-  7:	Ceric.16G060700	Ceric.38G007700	  2e-30
+ 73-  8:	Ceric.16G060800	Ceric.38G008000	      0
+ 73-  9:	Ceric.16G060900	Ceric.38G008100	  7e-18
+ 73- 10:	Ceric.16G061000	Ceric.38G008200	  2e-15
+ 73- 11:	Ceric.16G061100	Ceric.38G008300	  4e-45
+ 73- 12:	Ceric.16G061200	Ceric.38G008400	 6e-103
+ 73- 13:	Ceric.16G061300	Ceric.38G009200	  1e-70
+ 73- 14:	Ceric.16G061400	Ceric.38G009300	  9e-58
+ 73- 15:	Ceric.16G061500	Ceric.38G009400	  4e-25
+## Alignment 74: score=677.0 e_value=4e-79 N=14 Chr18&Chr35 plus
+ 74-  0:	Ceric.18G052900	Ceric.35G067900	  6e-49
+ 74-  1:	Ceric.18G053000	Ceric.35G068000	      0
+ 74-  2:	Ceric.18G053100	Ceric.35G068100	 1e-148
+ 74-  3:	Ceric.18G053200	Ceric.35G068200	 7e-120
+ 74-  4:	Ceric.18G053300	Ceric.35G068300	 3e-130
+ 74-  5:	Ceric.18G053400	Ceric.35G068400	  1e-17
+ 74-  6:	Ceric.18G053500	Ceric.35G068500	  1e-56
+ 74-  7:	Ceric.18G053600	Ceric.35G068600	      0
+ 74-  8:	Ceric.18G053700	Ceric.35G068700	      0
+ 74-  9:	Ceric.18G053800	Ceric.35G068800	  2e-13
+ 74- 10:	Ceric.18G053900	Ceric.35G068900	  5e-67
+ 74- 11:	Ceric.18G054000	Ceric.35G069000	      0
+ 74- 12:	Ceric.18G054100	Ceric.35G069100	      0
+ 74- 13:	Ceric.18G056500	Ceric.35G070200	 1e-180
+## Alignment 75: score=285.0 e_value=3.8e-12 N=6 Chr22&Chr22 plus
+ 75-  0:	Ceric.22G028300	Ceric.22G030800	      0
+ 75-  1:	Ceric.22G028900	Ceric.22G031000	  9e-79
+ 75-  2:	Ceric.22G029000	Ceric.22G031100	 3e-116
+ 75-  3:	Ceric.22G029100	Ceric.22G031900	 4e-148
+ 75-  4:	Ceric.22G029400	Ceric.22G032000	 5e-155
+ 75-  5:	Ceric.22G029600	Ceric.22G032100	 3e-134
+## Alignment 76: score=282.0 e_value=1.4e-08 N=6 Chr22&Chr39 plus
+ 76-  0:	Ceric.22G079100	Ceric.39G031000	      0
+ 76-  1:	Ceric.22G079400	Ceric.39G031300	 7e-139
+ 76-  2:	Ceric.22G079700	Ceric.39G031500	  7e-68
+ 76-  3:	Ceric.22G080000	Ceric.39G032100	      0
+ 76-  4:	Ceric.22G080900	Ceric.39G032200	 4e-172
+ 76-  5:	Ceric.22G081000	Ceric.39G032400	  6e-79
+## Alignment 77: score=841.0 e_value=4.5e-48 N=17 Chr29&Chr38 plus
+ 77-  0:	Ceric.29G003400	Ceric.38G008200	  3e-26
+ 77-  1:	Ceric.29G003500	Ceric.38G008300	  2e-48
+ 77-  2:	Ceric.29G003700	Ceric.38G008400	 2e-113
+ 77-  3:	Ceric.29G003800	Ceric.38G008500	 4e-134
+ 77-  4:	Ceric.29G003900	Ceric.38G008600	      0
+ 77-  5:	Ceric.29G004000	Ceric.38G008800	  2e-34
+ 77-  6:	Ceric.29G004100	Ceric.38G008900	  1e-77
+ 77-  7:	Ceric.29G004200	Ceric.38G009000	  6e-85
+ 77-  8:	Ceric.29G004300	Ceric.38G009100	  6e-94
+ 77-  9:	Ceric.29G004400	Ceric.38G009200	 2e-141
+ 77- 10:	Ceric.29G004500	Ceric.38G009300	  5e-84
+ 77- 11:	Ceric.29G004600	Ceric.38G009900	      0
+ 77- 12:	Ceric.29G004700	Ceric.38G010000	  6e-24
+ 77- 13:	Ceric.29G004900	Ceric.38G010100	      0
+ 77- 14:	Ceric.29G005000	Ceric.38G010300	 1e-110
+ 77- 15:	Ceric.29G005100	Ceric.38G010400	 1e-140
+ 77- 16:	Ceric.29G005200	Ceric.38G010500	  4e-13
+## Alignment 78: score=347.0 e_value=1.4e-10 N=7 Chr29&Chr682 minus
+ 78-  0:	Ceric.29G005100	Ceric.1Z117300	  2e-74
+ 78-  1:	Ceric.29G005300	Ceric.1Z117200	 7e-133
+ 78-  2:	Ceric.29G005500	Ceric.1Z117000	  6e-11
+ 78-  3:	Ceric.29G005700	Ceric.1Z116800	      0
+ 78-  4:	Ceric.29G005800	Ceric.1Z116700	      0
+ 78-  5:	Ceric.29G005900	Ceric.1Z116600	  2e-98
+ 78-  6:	Ceric.29G006000	Ceric.1Z116500	  1e-66
+## Alignment 79: score=325.0 e_value=7.8e-15 N=7 Chr29&Chr76 plus
+ 79-  0:	Ceric.29G003300	Ceric.1Z020800	  1e-32
+ 79-  1:	Ceric.29G005000	Ceric.1Z023000	 5e-109
+ 79-  2:	Ceric.29G005100	Ceric.1Z023100	  1e-92
+ 79-  3:	Ceric.29G005500	Ceric.1Z023200	  6e-11
+ 79-  4:	Ceric.29G005600	Ceric.1Z023300	  3e-23
+ 79-  5:	Ceric.29G005800	Ceric.1Z023400	      0
+ 79-  6:	Ceric.29G005900	Ceric.1Z023500	  2e-98
+## Alignment 80: score=292.0 e_value=4.2e-09 N=6 Chr29&Chr76 minus
+ 80-  0:	Ceric.29G032300	Ceric.1Z022800	      0
+ 80-  1:	Ceric.29G032800	Ceric.1Z022600	  8e-89
+ 80-  2:	Ceric.29G033200	Ceric.1Z022100	  3e-64
+ 80-  3:	Ceric.29G033300	Ceric.1Z022000	 2e-105
+ 80-  4:	Ceric.29G033400	Ceric.1Z021900	      0
+ 80-  5:	Ceric.29G033500	Ceric.1Z021800	 7e-177
+## Alignment 81: score=324.0 e_value=3.1e-14 N=7 Chr33&Chr38 plus
+ 81-  0:	Ceric.33G022300	Ceric.38G006600	      0
+ 81-  1:	Ceric.33G022400	Ceric.38G006800	 3e-131
+ 81-  2:	Ceric.33G022500	Ceric.38G006900	      0
+ 81-  3:	Ceric.33G022700	Ceric.38G007000	 1e-158
+ 81-  4:	Ceric.33G022800	Ceric.38G007100	  3e-21
+ 81-  5:	Ceric.33G022900	Ceric.38G007300	  4e-57
+ 81-  6:	Ceric.33G023300	Ceric.38G009700	      0
+## Alignment 82: score=904.0 e_value=3.2e-60 N=19 Chr38&Chr76 plus
+ 82-  0:	Ceric.38G006600	Ceric.1Z018100	  3e-80
+ 82-  1:	Ceric.38G006800	Ceric.1Z018300	 3e-100
+ 82-  2:	Ceric.38G006900	Ceric.1Z018400	  2e-93
+ 82-  3:	Ceric.38G007100	Ceric.1Z018500	  3e-20
+ 82-  4:	Ceric.38G007200	Ceric.1Z018700	  2e-22
+ 82-  5:	Ceric.38G007300	Ceric.1Z018800	  4e-57
+ 82-  6:	Ceric.38G007400	Ceric.1Z019000	  3e-16
+ 82-  7:	Ceric.38G007900	Ceric.1Z019300	 8e-107
+ 82-  8:	Ceric.38G008000	Ceric.1Z019400	      0
+ 82-  9:	Ceric.38G008400	Ceric.1Z019500	 2e-111
+ 82- 10:	Ceric.38G008500	Ceric.1Z019600	 1e-106
+ 82- 11:	Ceric.38G008600	Ceric.1Z019700	      0
+ 82- 12:	Ceric.38G009000	Ceric.1Z019900	  1e-44
+ 82- 13:	Ceric.38G009100	Ceric.1Z020000	  9e-90
+ 82- 14:	Ceric.38G009300	Ceric.1Z020100	  2e-83
+ 82- 15:	Ceric.38G009600	Ceric.1Z022700	 2e-127
+ 82- 16:	Ceric.38G009700	Ceric.1Z022900	  1e-66
+ 82- 17:	Ceric.38G010300	Ceric.1Z023000	 1e-127
+ 82- 18:	Ceric.38G010400	Ceric.1Z023100	  2e-92
+## Alignment 83: score=490.0 e_value=1.4e-19 N=10 Chr38&Chr76 minus
+ 83-  0:	Ceric.38G006500	Ceric.1Z021900	      0
+ 83-  1:	Ceric.38G006600	Ceric.1Z021800	      0
+ 83-  2:	Ceric.38G006700	Ceric.1Z021700	  1e-16
+ 83-  3:	Ceric.38G006800	Ceric.1Z021600	 3e-100
+ 83-  4:	Ceric.38G006900	Ceric.1Z021500	  1e-83
+ 83-  5:	Ceric.38G007200	Ceric.1Z021400	  5e-23
+ 83-  6:	Ceric.38G007900	Ceric.1Z021300	  8e-90
+ 83-  7:	Ceric.38G008000	Ceric.1Z021200	      0
+ 83-  8:	Ceric.38G008200	Ceric.1Z021000	  1e-25
+ 83-  9:	Ceric.38G008400	Ceric.1Z020900	 1e-108

@@ -1,0 +1,353 @@
+############### Parameters ###############
+# MATCH_SCORE: 50
+# MATCH_SIZE: 5
+# GAP_PENALTY: -1
+# OVERLAP_WINDOW: 5
+# E_VALUE: 1e-05
+# MAX GAPS: 25
+############### Statistics ###############
+# Number of collinear genes: 601, Percentage: 2.98
+# Number of all genes: 20201
+##########################################
+## Alignment 0: score=420.0 e_value=1.9e-21 N=10 Azfi_s0001&Azfi_s0059 minus
+  0-  0:	Azfi_s0001.g000523	Azfi_s0059.g034711	 5e-170
+  0-  1:	Azfi_s0001.g000536	Azfi_s0059.g034700	      0
+  0-  2:	Azfi_s0001.g000538	Azfi_s0059.g034687	  2e-18
+  0-  3:	Azfi_s0001.g000547	Azfi_s0059.g034661	      0
+  0-  4:	Azfi_s0001.g000555	Azfi_s0059.g034652	  3e-69
+  0-  5:	Azfi_s0001.g000582	Azfi_s0059.g034609	  2e-92
+  0-  6:	Azfi_s0001.g000602	Azfi_s0059.g034592	      0
+  0-  7:	Azfi_s0001.g000605	Azfi_s0059.g034588	  4e-18
+  0-  8:	Azfi_s0001.g000606	Azfi_s0059.g034578	  6e-25
+  0-  9:	Azfi_s0001.g000655	Azfi_s0059.g034542	  9e-59
+## Alignment 1: score=452.0 e_value=1.1e-20 N=10 Azfi_s0001&Azfi_s0091 minus
+  1-  0:	Azfi_s0001.g000489	Azfi_s0091.g042910	      0
+  1-  1:	Azfi_s0001.g000490	Azfi_s0091.g042903	      0
+  1-  2:	Azfi_s0001.g000492	Azfi_s0091.g042900	  1e-92
+  1-  3:	Azfi_s0001.g000493	Azfi_s0091.g042898	      0
+  1-  4:	Azfi_s0001.g000498	Azfi_s0091.g042873	 4e-162
+  1-  5:	Azfi_s0001.g000500	Azfi_s0091.g042856	      0
+  1-  6:	Azfi_s0001.g000501	Azfi_s0091.g042854	      0
+  1-  7:	Azfi_s0001.g000511	Azfi_s0091.g042849	      0
+  1-  8:	Azfi_s0001.g000515	Azfi_s0091.g042837	      0
+  1-  9:	Azfi_s0001.g000523	Azfi_s0091.g042812	 5e-170
+## Alignment 2: score=353.0 e_value=4.9e-14 N=8 Azfi_s0002&Azfi_s0007 minus
+  2-  0:	Azfi_s0002.g001536	Azfi_s0007.g011182	  4e-21
+  2-  1:	Azfi_s0002.g001545	Azfi_s0007.g011170	      0
+  2-  2:	Azfi_s0002.g001546	Azfi_s0007.g011164	  4e-72
+  2-  3:	Azfi_s0002.g001572	Azfi_s0007.g011132	  2e-52
+  2-  4:	Azfi_s0002.g001577	Azfi_s0007.g011119	  2e-30
+  2-  5:	Azfi_s0002.g001589	Azfi_s0007.g011116	      0
+  2-  6:	Azfi_s0002.g001594	Azfi_s0007.g011089	  1e-31
+  2-  7:	Azfi_s0002.g001598	Azfi_s0007.g011078	      0
+## Alignment 3: score=275.0 e_value=5.1e-10 N=6 Azfi_s0002&Azfi_s0076 minus
+  3-  0:	Azfi_s0002.g001258	Azfi_s0076.g037783	  3e-77
+  3-  1:	Azfi_s0002.g001274	Azfi_s0076.g037762	 7e-167
+  3-  2:	Azfi_s0002.g001280	Azfi_s0076.g037752	  6e-89
+  3-  3:	Azfi_s0002.g001281	Azfi_s0076.g037751	      0
+  3-  4:	Azfi_s0002.g001283	Azfi_s0076.g037750	 6e-176
+  3-  5:	Azfi_s0002.g001292	Azfi_s0076.g037745	  9e-32
+## Alignment 4: score=291.0 e_value=3.3e-13 N=7 Azfi_s0002&Azfi_s0093 plus
+  4-  0:	Azfi_s0002.g001571	Azfi_s0093.g043264	  4e-40
+  4-  1:	Azfi_s0002.g001613	Azfi_s0093.g043298	 5e-117
+  4-  2:	Azfi_s0002.g001618	Azfi_s0093.g043300	 2e-107
+  4-  3:	Azfi_s0002.g001635	Azfi_s0093.g043317	  2e-82
+  4-  4:	Azfi_s0002.g001639	Azfi_s0093.g043323	  4e-85
+  4-  5:	Azfi_s0002.g001650	Azfi_s0093.g043330	 3e-106
+  4-  6:	Azfi_s0002.g001662	Azfi_s0093.g043369	      0
+## Alignment 5: score=290.0 e_value=1.4e-09 N=6 Azfi_s0002&Azfi_s0355 minus
+  5-  0:	Azfi_s0002.g001309	Azfi_s0355.g066739	      0
+  5-  1:	Azfi_s0002.g001316	Azfi_s0355.g066731	 2e-174
+  5-  2:	Azfi_s0002.g001322	Azfi_s0355.g066721	      0
+  5-  3:	Azfi_s0002.g001324	Azfi_s0355.g066719	  2e-69
+  5-  4:	Azfi_s0002.g001325	Azfi_s0355.g066718	  5e-22
+  5-  5:	Azfi_s0002.g001329	Azfi_s0355.g066714	  2e-38
+## Alignment 6: score=318.0 e_value=1.5e-11 N=7 Azfi_s0003&Azfi_s0005 plus
+  6-  0:	Azfi_s0003.g007775	Azfi_s0005.g009351	      0
+  6-  1:	Azfi_s0003.g007788	Azfi_s0005.g009356	      0
+  6-  2:	Azfi_s0003.g007793	Azfi_s0005.g009357	  5e-57
+  6-  3:	Azfi_s0003.g007794	Azfi_s0005.g009363	  3e-92
+  6-  4:	Azfi_s0003.g007804	Azfi_s0005.g009378	      0
+  6-  5:	Azfi_s0003.g007813	Azfi_s0005.g009391	  3e-56
+  6-  6:	Azfi_s0003.g007817	Azfi_s0005.g009394	  9e-44
+## Alignment 7: score=456.0 e_value=5e-22 N=10 Azfi_s0003&Azfi_s0005 minus
+  7-  0:	Azfi_s0003.g007847	Azfi_s0005.g009317	      0
+  7-  1:	Azfi_s0003.g007854	Azfi_s0005.g009305	      0
+  7-  2:	Azfi_s0003.g007859	Azfi_s0005.g009295	  9e-57
+  7-  3:	Azfi_s0003.g007866	Azfi_s0005.g009276	 2e-153
+  7-  4:	Azfi_s0003.g007869	Azfi_s0005.g009272	      0
+  7-  5:	Azfi_s0003.g007874	Azfi_s0005.g009252	      0
+  7-  6:	Azfi_s0003.g007876	Azfi_s0005.g009241	 2e-171
+  7-  7:	Azfi_s0003.g007878	Azfi_s0005.g009240	      0
+  7-  8:	Azfi_s0003.g007894	Azfi_s0005.g009232	      0
+  7-  9:	Azfi_s0003.g007897	Azfi_s0005.g009228	      0
+## Alignment 8: score=350.0 e_value=5.3e-17 N=8 Azfi_s0003&Azfi_s0095 minus
+  8-  0:	Azfi_s0003.g007916	Azfi_s0095.g043647	  2e-28
+  8-  1:	Azfi_s0003.g007921	Azfi_s0095.g043641	      0
+  8-  2:	Azfi_s0003.g007924	Azfi_s0095.g043634	      0
+  8-  3:	Azfi_s0003.g007928	Azfi_s0095.g043633	 6e-105
+  8-  4:	Azfi_s0003.g007934	Azfi_s0095.g043621	      0
+  8-  5:	Azfi_s0003.g007940	Azfi_s0095.g043610	  1e-63
+  8-  6:	Azfi_s0003.g007946	Azfi_s0095.g043592	 8e-119
+  8-  7:	Azfi_s0003.g008000	Azfi_s0095.g043538	  9e-30
+## Alignment 9: score=311.0 e_value=6.9e-12 N=7 Azfi_s0004&Azfi_s0037 minus
+  9-  0:	Azfi_s0004.g008701	Azfi_s0037.g025930	      0
+  9-  1:	Azfi_s0004.g008722	Azfi_s0037.g025898	      0
+  9-  2:	Azfi_s0004.g008725	Azfi_s0037.g025895	  5e-89
+  9-  3:	Azfi_s0004.g008731	Azfi_s0037.g025888	      0
+  9-  4:	Azfi_s0004.g008743	Azfi_s0037.g025873	      0
+  9-  5:	Azfi_s0004.g008747	Azfi_s0037.g025871	 1e-145
+  9-  6:	Azfi_s0004.g008755	Azfi_s0037.g025858	      0
+## Alignment 10: score=325.0 e_value=4.1e-14 N=8 Azfi_s0006&Azfi_s0049 plus
+ 10-  0:	Azfi_s0006.g010195	Azfi_s0049.g030711	 4e-128
+ 10-  1:	Azfi_s0006.g010238	Azfi_s0049.g030772	  2e-54
+ 10-  2:	Azfi_s0006.g010261	Azfi_s0049.g030788	  7e-20
+ 10-  3:	Azfi_s0006.g010292	Azfi_s0049.g030814	      0
+ 10-  4:	Azfi_s0006.g010296	Azfi_s0049.g030818	  3e-12
+ 10-  5:	Azfi_s0006.g010308	Azfi_s0049.g030830	  5e-58
+ 10-  6:	Azfi_s0006.g010329	Azfi_s0049.g030878	      0
+ 10-  7:	Azfi_s0006.g010337	Azfi_s0049.g030896	  3e-32
+## Alignment 11: score=308.0 e_value=1.8e-11 N=7 Azfi_s0006&Azfi_s0051 plus
+ 11-  0:	Azfi_s0006.g010365	Azfi_s0051.g031249	  2e-85
+ 11-  1:	Azfi_s0006.g010385	Azfi_s0051.g031259	      0
+ 11-  2:	Azfi_s0006.g010387	Azfi_s0051.g031261	      0
+ 11-  3:	Azfi_s0006.g010394	Azfi_s0051.g031271	      0
+ 11-  4:	Azfi_s0006.g010400	Azfi_s0051.g031279	      0
+ 11-  5:	Azfi_s0006.g010408	Azfi_s0051.g031288	 1e-117
+ 11-  6:	Azfi_s0006.g010433	Azfi_s0051.g031335	  8e-54
+## Alignment 12: score=307.0 e_value=1.2e-14 N=7 Azfi_s0006&Azfi_s0051 plus
+ 12-  0:	Azfi_s0006.g010473	Azfi_s0051.g031369	      0
+ 12-  1:	Azfi_s0006.g010474	Azfi_s0051.g031370	      0
+ 12-  2:	Azfi_s0006.g010475	Azfi_s0051.g031375	      0
+ 12-  3:	Azfi_s0006.g010483	Azfi_s0051.g031385	      0
+ 12-  4:	Azfi_s0006.g010490	Azfi_s0051.g031438	  1e-70
+ 12-  5:	Azfi_s0006.g010491	Azfi_s0051.g031439	 5e-167
+ 12-  6:	Azfi_s0006.g010516	Azfi_s0051.g031475	  6e-68
+## Alignment 13: score=265.0 e_value=4.4e-10 N=6 Azfi_s0006&Azfi_s0064 minus
+ 13-  0:	Azfi_s0006.g009619	Azfi_s0064.g035594	      0
+ 13-  1:	Azfi_s0006.g009653	Azfi_s0064.g035551	  8e-74
+ 13-  2:	Azfi_s0006.g009667	Azfi_s0064.g035524	      0
+ 13-  3:	Azfi_s0006.g009673	Azfi_s0064.g035522	 1e-129
+ 13-  4:	Azfi_s0006.g009676	Azfi_s0064.g035521	  6e-66
+ 13-  5:	Azfi_s0006.g009681	Azfi_s0064.g035514	      0
+## Alignment 14: score=428.0 e_value=2.4e-21 N=10 Azfi_s0007&Azfi_s0011 plus
+ 14-  0:	Azfi_s0007.g010585	Azfi_s0011.g012606	  1e-63
+ 14-  1:	Azfi_s0007.g010591	Azfi_s0011.g012611	  1e-49
+ 14-  2:	Azfi_s0007.g010607	Azfi_s0011.g012636	  2e-43
+ 14-  3:	Azfi_s0007.g010613	Azfi_s0011.g012649	  6e-30
+ 14-  4:	Azfi_s0007.g010617	Azfi_s0011.g012661	  7e-39
+ 14-  5:	Azfi_s0007.g010647	Azfi_s0011.g012711	  3e-12
+ 14-  6:	Azfi_s0007.g010666	Azfi_s0011.g012725	      0
+ 14-  7:	Azfi_s0007.g010670	Azfi_s0011.g012737	      0
+ 14-  8:	Azfi_s0007.g010679	Azfi_s0011.g012740	      0
+ 14-  9:	Azfi_s0007.g010718	Azfi_s0011.g012766	      0
+## Alignment 15: score=437.0 e_value=2.4e-21 N=10 Azfi_s0007&Azfi_s0090 minus
+ 15-  0:	Azfi_s0007.g010777	Azfi_s0090.g042786	      0
+ 15-  1:	Azfi_s0007.g010781	Azfi_s0090.g042778	 2e-138
+ 15-  2:	Azfi_s0007.g010784	Azfi_s0090.g042771	  1e-58
+ 15-  3:	Azfi_s0007.g010786	Azfi_s0090.g042764	 6e-121
+ 15-  4:	Azfi_s0007.g010789	Azfi_s0090.g042757	 8e-155
+ 15-  5:	Azfi_s0007.g010796	Azfi_s0090.g042750	 3e-131
+ 15-  6:	Azfi_s0007.g010798	Azfi_s0090.g042732	  8e-18
+ 15-  7:	Azfi_s0007.g010821	Azfi_s0090.g042684	 3e-109
+ 15-  8:	Azfi_s0007.g010832	Azfi_s0090.g042660	  5e-96
+ 15-  9:	Azfi_s0007.g010837	Azfi_s0090.g042646	  1e-65
+## Alignment 16: score=372.0 e_value=4.6e-15 N=8 Azfi_s0013&Azfi_s0099 minus
+ 16-  0:	Azfi_s0013.g013357	Azfi_s0099.g044212	  2e-32
+ 16-  1:	Azfi_s0013.g013358	Azfi_s0099.g044210	      0
+ 16-  2:	Azfi_s0013.g013359	Azfi_s0099.g044209	      0
+ 16-  3:	Azfi_s0013.g013363	Azfi_s0099.g044202	      0
+ 16-  4:	Azfi_s0013.g013365	Azfi_s0099.g044198	      0
+ 16-  5:	Azfi_s0013.g013383	Azfi_s0099.g044176	 3e-106
+ 16-  6:	Azfi_s0013.g013405	Azfi_s0099.g044160	 4e-118
+ 16-  7:	Azfi_s0013.g013413	Azfi_s0099.g044147	  3e-69
+## Alignment 17: score=289.0 e_value=7.8e-09 N=6 Azfi_s0013&Azfi_s0310 plus
+ 17-  0:	Azfi_s0013.g013114	Azfi_s0310.g064122	 2e-132
+ 17-  1:	Azfi_s0013.g013129	Azfi_s0310.g064135	 1e-145
+ 17-  2:	Azfi_s0013.g013130	Azfi_s0310.g064141	 7e-174
+ 17-  3:	Azfi_s0013.g013134	Azfi_s0310.g064143	      0
+ 17-  4:	Azfi_s0013.g013139	Azfi_s0310.g064146	      0
+ 17-  5:	Azfi_s0013.g013142	Azfi_s0310.g064149	      0
+## Alignment 18: score=303.0 e_value=1.6e-11 N=7 Azfi_s0015&Azfi_s0054 plus
+ 18-  0:	Azfi_s0015.g013992	Azfi_s0054.g033738	 4e-177
+ 18-  1:	Azfi_s0015.g014012	Azfi_s0054.g033753	  5e-74
+ 18-  2:	Azfi_s0015.g014023	Azfi_s0054.g033781	 8e-177
+ 18-  3:	Azfi_s0015.g014027	Azfi_s0054.g033787	      0
+ 18-  4:	Azfi_s0015.g014034	Azfi_s0054.g033802	 4e-111
+ 18-  5:	Azfi_s0015.g014035	Azfi_s0054.g033813	      0
+ 18-  6:	Azfi_s0015.g014048	Azfi_s0054.g033850	  1e-37
+## Alignment 19: score=260.0 e_value=7.4e-11 N=6 Azfi_s0015&Azfi_s0054 minus
+ 19-  0:	Azfi_s0015.g014013	Azfi_s0054.g033751	  3e-96
+ 19-  1:	Azfi_s0015.g014064	Azfi_s0054.g033720	      0
+ 19-  2:	Azfi_s0015.g014065	Azfi_s0054.g033716	 4e-148
+ 19-  3:	Azfi_s0015.g014069	Azfi_s0054.g033715	  4e-51
+ 19-  4:	Azfi_s0015.g014080	Azfi_s0054.g033692	  4e-62
+ 19-  5:	Azfi_s0015.g014088	Azfi_s0054.g033675	      0
+## Alignment 20: score=283.0 e_value=2.7e-09 N=6 Azfi_s0015&Azfi_s0208 plus
+ 20-  0:	Azfi_s0015.g013704	Azfi_s0208.g057948	  1e-73
+ 20-  1:	Azfi_s0015.g013705	Azfi_s0208.g057951	      0
+ 20-  2:	Azfi_s0015.g013719	Azfi_s0208.g057980	  8e-19
+ 20-  3:	Azfi_s0015.g013722	Azfi_s0208.g057983	      0
+ 20-  4:	Azfi_s0015.g013731	Azfi_s0208.g057992	      0
+ 20-  5:	Azfi_s0015.g013742	Azfi_s0208.g058008	      0
+## Alignment 21: score=274.0 e_value=2.3e-10 N=6 Azfi_s0018&Azfi_s0114 minus
+ 21-  0:	Azfi_s0018.g014717	Azfi_s0114.g046153	      0
+ 21-  1:	Azfi_s0018.g014744	Azfi_s0114.g046140	      0
+ 21-  2:	Azfi_s0018.g014773	Azfi_s0114.g046118	      0
+ 21-  3:	Azfi_s0018.g014775	Azfi_s0114.g046114	 7e-128
+ 21-  4:	Azfi_s0018.g014776	Azfi_s0114.g046110	  1e-53
+ 21-  5:	Azfi_s0018.g014790	Azfi_s0114.g046100	 2e-162
+## Alignment 22: score=407.0 e_value=8.3e-19 N=9 Azfi_s0022&Azfi_s0113 minus
+ 22-  0:	Azfi_s0022.g015923	Azfi_s0113.g046000	  1e-78
+ 22-  1:	Azfi_s0022.g015930	Azfi_s0113.g045997	  7e-52
+ 22-  2:	Azfi_s0022.g015942	Azfi_s0113.g045994	      0
+ 22-  3:	Azfi_s0022.g015944	Azfi_s0113.g045992	 2e-152
+ 22-  4:	Azfi_s0022.g015947	Azfi_s0113.g045984	  7e-31
+ 22-  5:	Azfi_s0022.g015951	Azfi_s0113.g045981	      0
+ 22-  6:	Azfi_s0022.g015975	Azfi_s0113.g045962	  3e-15
+ 22-  7:	Azfi_s0022.g015989	Azfi_s0113.g045942	 5e-123
+ 22-  8:	Azfi_s0022.g016016	Azfi_s0113.g045937	  7e-21
+## Alignment 23: score=310.0 e_value=5.6e-11 N=7 Azfi_s0022&Azfi_s0117 plus
+ 23-  0:	Azfi_s0022.g016042	Azfi_s0117.g046459	      0
+ 23-  1:	Azfi_s0022.g016046	Azfi_s0117.g046468	      0
+ 23-  2:	Azfi_s0022.g016058	Azfi_s0117.g046475	 9e-123
+ 23-  3:	Azfi_s0022.g016059	Azfi_s0117.g046483	      0
+ 23-  4:	Azfi_s0022.g016068	Azfi_s0117.g046520	      0
+ 23-  5:	Azfi_s0022.g016081	Azfi_s0117.g046542	  8e-88
+ 23-  6:	Azfi_s0022.g016089	Azfi_s0117.g046556	      0
+## Alignment 24: score=471.0 e_value=5.2e-22 N=11 Azfi_s0027&Azfi_s0104 plus
+ 24-  0:	Azfi_s0027.g023600	Azfi_s0104.g044725	      0
+ 24-  1:	Azfi_s0027.g023639	Azfi_s0104.g044735	  2e-57
+ 24-  2:	Azfi_s0027.g023641	Azfi_s0104.g044743	  5e-70
+ 24-  3:	Azfi_s0027.g023660	Azfi_s0104.g044764	      0
+ 24-  4:	Azfi_s0027.g023690	Azfi_s0104.g044772	  6e-70
+ 24-  5:	Azfi_s0027.g023703	Azfi_s0104.g044782	  9e-31
+ 24-  6:	Azfi_s0027.g023713	Azfi_s0104.g044799	      0
+ 24-  7:	Azfi_s0027.g023730	Azfi_s0104.g044817	  8e-88
+ 24-  8:	Azfi_s0027.g023744	Azfi_s0104.g044822	  2e-73
+ 24-  9:	Azfi_s0027.g023754	Azfi_s0104.g044827	      0
+ 24- 10:	Azfi_s0027.g023766	Azfi_s0104.g044834	      0
+## Alignment 25: score=398.0 e_value=1.6e-20 N=9 Azfi_s0027&Azfi_s0104 minus
+ 25-  0:	Azfi_s0027.g023663	Azfi_s0104.g044831	  2e-93
+ 25-  1:	Azfi_s0027.g023706	Azfi_s0104.g044813	      0
+ 25-  2:	Azfi_s0027.g023707	Azfi_s0104.g044812	      0
+ 25-  3:	Azfi_s0027.g023708	Azfi_s0104.g044810	      0
+ 25-  4:	Azfi_s0027.g023709	Azfi_s0104.g044808	      0
+ 25-  5:	Azfi_s0027.g023718	Azfi_s0104.g044796	 5e-113
+ 25-  6:	Azfi_s0027.g023719	Azfi_s0104.g044794	      0
+ 25-  7:	Azfi_s0027.g023728	Azfi_s0104.g044786	  1e-90
+ 25-  8:	Azfi_s0027.g023756	Azfi_s0104.g044745	  1e-93
+## Alignment 26: score=453.0 e_value=7.3e-22 N=10 Azfi_s0027&Azfi_s0245 minus
+ 26-  0:	Azfi_s0027.g023479	Azfi_s0245.g060013	  3e-12
+ 26-  1:	Azfi_s0027.g023498	Azfi_s0245.g060001	  5e-14
+ 26-  2:	Azfi_s0027.g023499	Azfi_s0245.g060000	      0
+ 26-  3:	Azfi_s0027.g023506	Azfi_s0245.g059993	  4e-88
+ 26-  4:	Azfi_s0027.g023511	Azfi_s0245.g059990	  6e-67
+ 26-  5:	Azfi_s0027.g023519	Azfi_s0245.g059974	      0
+ 26-  6:	Azfi_s0027.g023557	Azfi_s0245.g059966	  6e-17
+ 26-  7:	Azfi_s0027.g023574	Azfi_s0245.g059945	 3e-119
+ 26-  8:	Azfi_s0027.g023578	Azfi_s0245.g059942	      0
+ 26-  9:	Azfi_s0027.g023582	Azfi_s0245.g059939	  5e-56
+## Alignment 27: score=256.0 e_value=5.2e-09 N=6 Azfi_s0029&Azfi_s0116 minus
+ 27-  0:	Azfi_s0029.g024099	Azfi_s0116.g046446	  3e-35
+ 27-  1:	Azfi_s0029.g024123	Azfi_s0116.g046432	  3e-89
+ 27-  2:	Azfi_s0029.g024143	Azfi_s0116.g046406	      0
+ 27-  3:	Azfi_s0029.g024149	Azfi_s0116.g046400	      0
+ 27-  4:	Azfi_s0029.g024164	Azfi_s0116.g046399	      0
+ 27-  5:	Azfi_s0029.g024214	Azfi_s0116.g046360	  5e-79
+## Alignment 28: score=259.0 e_value=3.6e-08 N=6 Azfi_s0034&Azfi_s0084 plus
+ 28-  0:	Azfi_s0034.g025309	Azfi_s0084.g038982	  4e-35
+ 28-  1:	Azfi_s0034.g025321	Azfi_s0084.g038996	  5e-11
+ 28-  2:	Azfi_s0034.g025344	Azfi_s0084.g039006	      0
+ 28-  3:	Azfi_s0034.g025364	Azfi_s0084.g039031	  8e-92
+ 28-  4:	Azfi_s0034.g025377	Azfi_s0084.g039044	  4e-75
+ 28-  5:	Azfi_s0034.g025420	Azfi_s0084.g039055	  4e-36
+## Alignment 29: score=250.0 e_value=1.5e-06 N=5 Azfi_s0043&Azfi_s1515 minus
+ 29-  0:	Azfi_s0043.g026948	Azfi_s1515.g103946	      0
+ 29-  1:	Azfi_s0043.g026949	Azfi_s1515.g103943	      0
+ 29-  2:	Azfi_s0043.g026951	Azfi_s1515.g103942	  1e-64
+ 29-  3:	Azfi_s0043.g026952	Azfi_s1515.g103941	  2e-70
+ 29-  4:	Azfi_s0043.g026953	Azfi_s1515.g103939	      0
+## Alignment 30: score=317.0 e_value=9.6e-11 N=7 Azfi_s0045&Azfi_s0401 minus
+ 30-  0:	Azfi_s0045.g029938	Azfi_s0401.g068293	 1e-105
+ 30-  1:	Azfi_s0045.g029961	Azfi_s0401.g068291	      0
+ 30-  2:	Azfi_s0045.g029970	Azfi_s0401.g068284	 7e-178
+ 30-  3:	Azfi_s0045.g029972	Azfi_s0401.g068282	  8e-33
+ 30-  4:	Azfi_s0045.g029986	Azfi_s0401.g068274	 9e-157
+ 30-  5:	Azfi_s0045.g030001	Azfi_s0401.g068266	  3e-95
+ 30-  6:	Azfi_s0045.g030003	Azfi_s0401.g068259	  1e-74
+## Alignment 31: score=401.0 e_value=1.5e-17 N=9 Azfi_s0073&Azfi_s0215 plus
+ 31-  0:	Azfi_s0073.g037157	Azfi_s0215.g058382	      0
+ 31-  1:	Azfi_s0073.g037160	Azfi_s0215.g058384	  2e-13
+ 31-  2:	Azfi_s0073.g037162	Azfi_s0215.g058388	  2e-55
+ 31-  3:	Azfi_s0073.g037166	Azfi_s0215.g058396	      0
+ 31-  4:	Azfi_s0073.g037180	Azfi_s0215.g058418	 2e-113
+ 31-  5:	Azfi_s0073.g037213	Azfi_s0215.g058444	  5e-66
+ 31-  6:	Azfi_s0073.g037232	Azfi_s0215.g058459	  4e-34
+ 31-  7:	Azfi_s0073.g037239	Azfi_s0215.g058461	  1e-31
+ 31-  8:	Azfi_s0073.g037252	Azfi_s0215.g058469	  9e-58
+## Alignment 32: score=325.0 e_value=1.3e-12 N=7 Azfi_s0075&Azfi_s0272 plus
+ 32-  0:	Azfi_s0075.g037668	Azfi_s0272.g061259	      0
+ 32-  1:	Azfi_s0075.g037686	Azfi_s0272.g061270	      0
+ 32-  2:	Azfi_s0075.g037709	Azfi_s0272.g061274	  5e-77
+ 32-  3:	Azfi_s0075.g037711	Azfi_s0272.g061275	  2e-39
+ 32-  4:	Azfi_s0075.g037719	Azfi_s0272.g061280	      0
+ 32-  5:	Azfi_s0075.g037721	Azfi_s0272.g061284	 3e-141
+ 32-  6:	Azfi_s0075.g037725	Azfi_s0272.g061286	  5e-63
+## Alignment 33: score=329.0 e_value=2.9e-12 N=7 Azfi_s0087&Azfi_s0129 minus
+ 33-  0:	Azfi_s0087.g042383	Azfi_s0129.g048880	  8e-73
+ 33-  1:	Azfi_s0087.g042385	Azfi_s0129.g048878	  7e-14
+ 33-  2:	Azfi_s0087.g042390	Azfi_s0129.g048877	      0
+ 33-  3:	Azfi_s0087.g042407	Azfi_s0129.g048866	      0
+ 33-  4:	Azfi_s0087.g042415	Azfi_s0129.g048858	  5e-85
+ 33-  5:	Azfi_s0087.g042432	Azfi_s0129.g048856	 2e-134
+ 33-  6:	Azfi_s0087.g042435	Azfi_s0129.g048852	  3e-34
+## Alignment 34: score=273.0 e_value=3.1e-09 N=6 Azfi_s0087&Azfi_s0292 plus
+ 34-  0:	Azfi_s0087.g042226	Azfi_s0292.g063371	      0
+ 34-  1:	Azfi_s0087.g042230	Azfi_s0292.g063373	  1e-37
+ 34-  2:	Azfi_s0087.g042232	Azfi_s0292.g063379	 4e-176
+ 34-  3:	Azfi_s0087.g042237	Azfi_s0292.g063390	  9e-74
+ 34-  4:	Azfi_s0087.g042243	Azfi_s0292.g063397	  2e-99
+ 34-  5:	Azfi_s0087.g042286	Azfi_s0292.g063415	      0
+## Alignment 35: score=270.0 e_value=2.6e-09 N=6 Azfi_s0113&Azfi_s0230 plus
+ 35-  0:	Azfi_s0113.g045889	Azfi_s0230.g059157	 1e-145
+ 35-  1:	Azfi_s0113.g045904	Azfi_s0230.g059167	      0
+ 35-  2:	Azfi_s0113.g045905	Azfi_s0230.g059168	      0
+ 35-  3:	Azfi_s0113.g045912	Azfi_s0230.g059187	      0
+ 35-  4:	Azfi_s0113.g045919	Azfi_s0230.g059189	      0
+ 35-  5:	Azfi_s0113.g045922	Azfi_s0230.g059206	 2e-168
+## Alignment 36: score=319.0 e_value=1.5e-10 N=7 Azfi_s0129&Azfi_s0221 minus
+ 36-  0:	Azfi_s0129.g048904	Azfi_s0221.g058754	 4e-120
+ 36-  1:	Azfi_s0129.g048919	Azfi_s0221.g058751	  2e-47
+ 36-  2:	Azfi_s0129.g048939	Azfi_s0221.g058742	  2e-12
+ 36-  3:	Azfi_s0129.g048943	Azfi_s0221.g058738	 4e-102
+ 36-  4:	Azfi_s0129.g048956	Azfi_s0221.g058729	  6e-77
+ 36-  5:	Azfi_s0129.g048970	Azfi_s0221.g058725	  6e-21
+ 36-  6:	Azfi_s0129.g048983	Azfi_s0221.g058717	  2e-77
+## Alignment 37: score=276.0 e_value=6.7e-09 N=6 Azfi_s0154&Azfi_s0157 minus
+ 37-  0:	Azfi_s0154.g053533	Azfi_s0157.g053846	  1e-48
+ 37-  1:	Azfi_s0154.g053541	Azfi_s0157.g053840	 5e-121
+ 37-  2:	Azfi_s0154.g053545	Azfi_s0157.g053833	      0
+ 37-  3:	Azfi_s0154.g053549	Azfi_s0157.g053829	 1e-171
+ 37-  4:	Azfi_s0154.g053563	Azfi_s0157.g053826	  1e-46
+ 37-  5:	Azfi_s0154.g053568	Azfi_s0157.g053808	      0
+## Alignment 38: score=269.0 e_value=1.9e-08 N=6 Azfi_s0173&Azfi_s0176 minus
+ 38-  0:	Azfi_s0173.g055758	Azfi_s0176.g056093	  4e-77
+ 38-  1:	Azfi_s0173.g055762	Azfi_s0176.g056073	  4e-72
+ 38-  2:	Azfi_s0173.g055783	Azfi_s0176.g056059	  1e-81
+ 38-  3:	Azfi_s0173.g055788	Azfi_s0176.g056056	      0
+ 38-  4:	Azfi_s0173.g055799	Azfi_s0176.g056041	  2e-71
+ 38-  5:	Azfi_s0173.g055821	Azfi_s0176.g056016	      0
+## Alignment 39: score=300.0 e_value=1e-07 N=6 Azfi_s0293&Azfi_s1600 plus
+ 39-  0:	Azfi_s0293.g063450	Azfi_s1600.g104543	 1e-156
+ 39-  1:	Azfi_s0293.g063453	Azfi_s1600.g104546	  2e-53
+ 39-  2:	Azfi_s0293.g063455	Azfi_s1600.g104548	 8e-177
+ 39-  3:	Azfi_s0293.g063457	Azfi_s1600.g104551	  2e-78
+ 39-  4:	Azfi_s0293.g063459	Azfi_s1600.g104552	      0
+ 39-  5:	Azfi_s0293.g063460	Azfi_s1600.g104553	 1e-136
+## Alignment 40: score=250.0 e_value=5.1e-06 N=5 Azfi_s0469&Azfi_s1387 plus
+ 40-  0:	Azfi_s0469.g072866	Azfi_s1387.g102495	  2e-92
+ 40-  1:	Azfi_s0469.g072868	Azfi_s1387.g102498	      0
+ 40-  2:	Azfi_s0469.g072869	Azfi_s1387.g102500	 1e-176
+ 40-  3:	Azfi_s0469.g072871	Azfi_s1387.g102503	  1e-98
+ 40-  4:	Azfi_s0469.g072872	Azfi_s1387.g102504	 8e-156

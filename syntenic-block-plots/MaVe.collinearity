@@ -1,0 +1,191 @@
+############### Parameters ###############
+# MATCH_SCORE: 50
+# MATCH_SIZE: 5
+# GAP_PENALTY: -1
+# OVERLAP_WINDOW: 5
+# E_VALUE: 1e-05
+# MAX GAPS: 25
+############### Statistics ###############
+# Number of collinear genes: 320, Percentage: 1.42
+# Number of all genes: 22541
+##########################################
+## Alignment 0: score=300.0 e_value=1.8e-07 N=6 Mvestita_C127&Mvestita_C148 plus
+  0-  0:	Mvestita_C127g20049-RA	Mvestita_C148g20465-RA	      0
+  0-  1:	Mvestita_C127g20050-RA	Mvestita_C148g20466-RA	      0
+  0-  2:	Mvestita_C127g20051-RA	Mvestita_C148g20467-RA	      0
+  0-  3:	Mvestita_C127g20052-RA	Mvestita_C148g20468-RA	  2e-96
+  0-  4:	Mvestita_C127g20053-RA	Mvestita_C148g20469-RA	 2e-177
+  0-  5:	Mvestita_C127g20054-RA	Mvestita_C148g20470-RA	  8e-95
+## Alignment 1: score=398.0 e_value=1.7e-14 N=8 Mvestita_C145&Mvestita_C78 plus
+  1-  0:	Mvestita_C145g20549-RA	Mvestita_C78g20065-RA	      0
+  1-  1:	Mvestita_C145g20550-RA	Mvestita_C78g20066-RA	      0
+  1-  2:	Mvestita_C145g20552-RA	Mvestita_C78g20068-RA	      0
+  1-  3:	Mvestita_C145g20553-RA	Mvestita_C78g20070-RA	      0
+  1-  4:	Mvestita_C145g20554-RA	Mvestita_C78g20071-RA	 1e-156
+  1-  5:	Mvestita_C145g20555-RA	Mvestita_C78g20072-RA	      0
+  1-  6:	Mvestita_C145g20556-RA	Mvestita_C78g20074-RA	  2e-26
+  1-  7:	Mvestita_C145g20557-RA	Mvestita_C78g20073-RA	 8e-130
+## Alignment 2: score=442.0 e_value=1.6e-18 N=9 Mvestita_C146&Mvestita_C59 plus
+  2-  0:	Mvestita_C146g20823-RA	Mvestita_C59g19722-RA	      0
+  2-  1:	Mvestita_C146g20824-RA	Mvestita_C59g19724-RA	      0
+  2-  2:	Mvestita_C146g20825-RA	Mvestita_C59g19725-RA	      0
+  2-  3:	Mvestita_C146g20826-RA	Mvestita_C59g19726-RA	      0
+  2-  4:	Mvestita_C146g20827-RA	Mvestita_C59g19727-RA	      0
+  2-  5:	Mvestita_C146g20828-RA	Mvestita_C59g19729-RA	      0
+  2-  6:	Mvestita_C146g20829-RA	Mvestita_C59g19731-RA	      0
+  2-  7:	Mvestita_C146g20832-RA	Mvestita_C59g19732-RA	 1e-132
+  2-  8:	Mvestita_C146g20833-RA	Mvestita_C59g19736-RA	  2e-88
+## Alignment 3: score=350.0 e_value=3.1e-10 N=7 Mvestita_C1716&Mvestita_S18 minus
+  3-  0:	Mvestita_C1716g21021-RA	Mvestita_S18g15086-RA	 2e-134
+  3-  1:	Mvestita_C1716g21022-RA	Mvestita_S18g15085-RA	      0
+  3-  2:	Mvestita_C1716g21023-RA	Mvestita_S18g15084-RA	  5e-63
+  3-  3:	Mvestita_C1716g21024-RA	Mvestita_S18g15083-RA	      0
+  3-  4:	Mvestita_C1716g21025-RA	Mvestita_S18g15082-RA	      0
+  3-  5:	Mvestita_C1716g21026-RA	Mvestita_S18g15081-RA	      0
+  3-  6:	Mvestita_C1716g21027-RA	Mvestita_S18g15080-RA	 5e-164
+## Alignment 4: score=349.0 e_value=3.2e-12 N=7 Mvestita_C205&Mvestita_C365 plus
+  4-  0:	Mvestita_C205g20882-RA	Mvestita_C365g20954-RA	 1e-104
+  4-  1:	Mvestita_C205g20883-RA	Mvestita_C365g20955-RA	      0
+  4-  2:	Mvestita_C205g20885-RA	Mvestita_C365g20956-RA	      0
+  4-  3:	Mvestita_C205g20886-RA	Mvestita_C365g20957-RA	      0
+  4-  4:	Mvestita_C205g20887-RA	Mvestita_C365g20958-RA	      0
+  4-  5:	Mvestita_C205g20888-RA	Mvestita_C365g20959-RA	  7e-89
+  4-  6:	Mvestita_C205g20889-RA	Mvestita_C365g20960-RA	      0
+## Alignment 5: score=299.0 e_value=3e-11 N=6 Mvestita_C224&Mvestita_S4 plus
+  5-  0:	Mvestita_C224g21069-RA	Mvestita_S4g09009-RA	      0
+  5-  1:	Mvestita_C224g21070-RA	Mvestita_S4g09010-RA	      0
+  5-  2:	Mvestita_C224g21071-RA	Mvestita_S4g09011-RA	      0
+  5-  3:	Mvestita_C224g21073-RA	Mvestita_S4g09013-RA	 9e-174
+  5-  4:	Mvestita_C224g21074-RA	Mvestita_S4g09014-RA	      0
+  5-  5:	Mvestita_C224g21075-RA	Mvestita_S4g09015-RA	 3e-110
+## Alignment 6: score=400.0 e_value=5.1e-13 N=8 Mvestita_C248&Mvestita_C304 minus
+  6-  0:	Mvestita_C248g20890-RA	Mvestita_C304g20880-RA	      0
+  6-  1:	Mvestita_C248g20891-RA	Mvestita_C304g20879-RA	      0
+  6-  2:	Mvestita_C248g20892-RA	Mvestita_C304g20878-RA	 4e-121
+  6-  3:	Mvestita_C248g20893-RA	Mvestita_C304g20877-RA	      0
+  6-  4:	Mvestita_C248g20894-RA	Mvestita_C304g20876-RA	      0
+  6-  5:	Mvestita_C248g20895-RA	Mvestita_C304g20875-RA	      0
+  6-  6:	Mvestita_C248g20896-RA	Mvestita_C304g20874-RA	 5e-137
+  6-  7:	Mvestita_C248g20897-RA	Mvestita_C304g20873-RA	      0
+## Alignment 7: score=396.0 e_value=1.6e-16 N=8 Mvestita_C28&Mvestita_C48 plus
+  7-  0:	Mvestita_C28g20664-RA	Mvestita_C48g20524-RA	      0
+  7-  1:	Mvestita_C28g20666-RA	Mvestita_C48g20526-RA	      0
+  7-  2:	Mvestita_C28g20667-RA	Mvestita_C48g20528-RA	      0
+  7-  3:	Mvestita_C28g20669-RA	Mvestita_C48g20529-RA	      0
+  7-  4:	Mvestita_C28g20670-RA	Mvestita_C48g20530-RA	      0
+  7-  5:	Mvestita_C28g20671-RA	Mvestita_C48g20531-RA	 1e-163
+  7-  6:	Mvestita_C28g20672-RA	Mvestita_C48g20532-RA	      0
+  7-  7:	Mvestita_C28g20674-RA	Mvestita_C48g20533-RA	 1e-157
+## Alignment 8: score=640.0 e_value=1e-33 N=13 Mvestita_C40&Mvestita_C60 plus
+  8-  0:	Mvestita_C40g19519-RA	Mvestita_C60g20143-RA	 4e-107
+  8-  1:	Mvestita_C40g19520-RA	Mvestita_C60g20145-RA	      0
+  8-  2:	Mvestita_C40g19521-RA	Mvestita_C60g20148-RA	      0
+  8-  3:	Mvestita_C40g19526-RA	Mvestita_C60g20152-RA	  6e-66
+  8-  4:	Mvestita_C40g19527-RA	Mvestita_C60g20153-RA	      0
+  8-  5:	Mvestita_C40g19528-RA	Mvestita_C60g20154-RA	      0
+  8-  6:	Mvestita_C40g19529-RA	Mvestita_C60g20155-RA	      0
+  8-  7:	Mvestita_C40g19530-RA	Mvestita_C60g20156-RA	      0
+  8-  8:	Mvestita_C40g19531-RA	Mvestita_C60g20157-RA	 5e-124
+  8-  9:	Mvestita_C40g19533-RA	Mvestita_C60g20158-RA	 3e-104
+  8- 10:	Mvestita_C40g19534-RA	Mvestita_C60g20160-RA	      0
+  8- 11:	Mvestita_C40g19536-RA	Mvestita_C60g20161-RA	      0
+  8- 12:	Mvestita_C40g19537-RA	Mvestita_C60g20162-RA	 1e-139
+## Alignment 9: score=299.0 e_value=2.5e-08 N=6 Mvestita_C427&Mvestita_C90 plus
+  9-  0:	Mvestita_C427g21306-RA	Mvestita_C90g20436-RA	      0
+  9-  1:	Mvestita_C427g21307-RA	Mvestita_C90g20437-RA	      0
+  9-  2:	Mvestita_C427g21308-RA	Mvestita_C90g20438-RA	 3e-152
+  9-  3:	Mvestita_C427g21309-RA	Mvestita_C90g20439-RA	      0
+  9-  4:	Mvestita_C427g21310-RA	Mvestita_C90g20440-RA	      0
+  9-  5:	Mvestita_C427g21312-RA	Mvestita_C90g20441-RA	 7e-133
+## Alignment 10: score=350.0 e_value=3.6e-12 N=7 Mvestita_C90&Mvestita_C93 plus
+ 10-  0:	Mvestita_C90g20429-RA	Mvestita_C93g21000-RA	  1e-76
+ 10-  1:	Mvestita_C90g20430-RA	Mvestita_C93g21001-RA	      0
+ 10-  2:	Mvestita_C90g20431-RA	Mvestita_C93g21002-RA	  6e-36
+ 10-  3:	Mvestita_C90g20432-RA	Mvestita_C93g21003-RA	      0
+ 10-  4:	Mvestita_C90g20433-RA	Mvestita_C93g21004-RA	  1e-96
+ 10-  5:	Mvestita_C90g20434-RA	Mvestita_C93g21005-RA	 4e-170
+ 10-  6:	Mvestita_C90g20435-RA	Mvestita_C93g21006-RA	      0
+## Alignment 11: score=320.0 e_value=4.9e-15 N=8 Mvestita_S12&Mvestita_S6 plus
+ 11-  0:	Mvestita_S12g15955-RA	Mvestita_S6g00666-RA	      0
+ 11-  1:	Mvestita_S12g15957-RA	Mvestita_S6g00670-RA	  2e-83
+ 11-  2:	Mvestita_S12g15965-RA	Mvestita_S6g00694-RA	 3e-130
+ 11-  3:	Mvestita_S12g15972-RA	Mvestita_S6g00707-RA	      0
+ 11-  4:	Mvestita_S12g15974-RA	Mvestita_S6g00714-RA	 2e-120
+ 11-  5:	Mvestita_S12g15990-RA	Mvestita_S6g00733-RA	  2e-91
+ 11-  6:	Mvestita_S12g15993-RA	Mvestita_S6g00736-RA	  5e-59
+ 11-  7:	Mvestita_S12g16002-RA	Mvestita_S6g00753-RA	 2e-108
+## Alignment 12: score=258.0 e_value=6.2e-11 N=6 Mvestita_S12&Mvestita_S8 minus
+ 12-  0:	Mvestita_S12g15736-RA	Mvestita_S8g05118-RA	 4e-152
+ 12-  1:	Mvestita_S12g15745-RA	Mvestita_S8g05109-RA	 2e-180
+ 12-  2:	Mvestita_S12g15753-RA	Mvestita_S8g05108-RA	  8e-40
+ 12-  3:	Mvestita_S12g15754-RA	Mvestita_S8g05094-RA	 8e-102
+ 12-  4:	Mvestita_S12g15765-RA	Mvestita_S8g05092-RA	  2e-88
+ 12-  5:	Mvestita_S12g15770-RA	Mvestita_S8g05089-RA	 3e-109
+## Alignment 13: score=255.0 e_value=3.9e-08 N=6 Mvestita_S14&Mvestita_S9 plus
+ 13-  0:	Mvestita_S14g07941-RA	Mvestita_S9g05529-RA	 5e-117
+ 13-  1:	Mvestita_S14g07945-RA	Mvestita_S9g05535-RA	  1e-89
+ 13-  2:	Mvestita_S14g07948-RA	Mvestita_S9g05546-RA	      0
+ 13-  3:	Mvestita_S14g07952-RA	Mvestita_S9g05571-RA	      0
+ 13-  4:	Mvestita_S14g07956-RA	Mvestita_S9g05572-RA	  4e-52
+ 13-  5:	Mvestita_S14g07960-RA	Mvestita_S9g05574-RA	 2e-106
+## Alignment 14: score=318.0 e_value=1.6e-10 N=7 Mvestita_S19&Mvestita_S19 minus
+ 14-  0:	Mvestita_S19g17521-RA	Mvestita_S19g17626-RA	  4e-48
+ 14-  1:	Mvestita_S19g17525-RA	Mvestita_S19g17613-RA	  3e-38
+ 14-  2:	Mvestita_S19g17534-RA	Mvestita_S19g17611-RA	  2e-21
+ 14-  3:	Mvestita_S19g17536-RA	Mvestita_S19g17606-RA	  8e-48
+ 14-  4:	Mvestita_S19g17539-RA	Mvestita_S19g17603-RA	  2e-46
+ 14-  5:	Mvestita_S19g17542-RA	Mvestita_S19g17600-RA	  9e-68
+ 14-  6:	Mvestita_S19g17547-RA	Mvestita_S19g17597-RA	  4e-27
+## Alignment 15: score=851.0 e_value=6.6e-61 N=18 Mvestita_S4&Mvestita_S4 minus
+ 15-  0:	Mvestita_S4g08647-RA	Mvestita_S4g09017-RA	      0
+ 15-  1:	Mvestita_S4g08649-RA	Mvestita_S4g09002-RA	      0
+ 15-  2:	Mvestita_S4g08650-RA	Mvestita_S4g09001-RA	      0
+ 15-  3:	Mvestita_S4g08666-RA	Mvestita_S4g08999-RA	  1e-50
+ 15-  4:	Mvestita_S4g08667-RA	Mvestita_S4g08998-RA	      0
+ 15-  5:	Mvestita_S4g08668-RA	Mvestita_S4g08996-RA	      0
+ 15-  6:	Mvestita_S4g08669-RA	Mvestita_S4g08995-RA	      0
+ 15-  7:	Mvestita_S4g08670-RA	Mvestita_S4g08994-RA	      0
+ 15-  8:	Mvestita_S4g08671-RA	Mvestita_S4g08993-RA	 3e-135
+ 15-  9:	Mvestita_S4g08672-RA	Mvestita_S4g08991-RA	  2e-64
+ 15- 10:	Mvestita_S4g08673-RA	Mvestita_S4g08990-RA	 3e-116
+ 15- 11:	Mvestita_S4g08674-RA	Mvestita_S4g08989-RA	      0
+ 15- 12:	Mvestita_S4g08690-RA	Mvestita_S4g08988-RA	      0
+ 15- 13:	Mvestita_S4g08691-RA	Mvestita_S4g08987-RA	      0
+ 15- 14:	Mvestita_S4g08692-RA	Mvestita_S4g08986-RA	  5e-93
+ 15- 15:	Mvestita_S4g08694-RA	Mvestita_S4g08985-RA	      0
+ 15- 16:	Mvestita_S4g08697-RA	Mvestita_S4g08984-RA	      0
+ 15- 17:	Mvestita_S4g08698-RA	Mvestita_S4g08983-RA	      0
+## Alignment 16: score=540.0 e_value=2.8e-29 N=11 Mvestita_S4&Mvestita_S4 minus
+ 16-  0:	Mvestita_S4g08921-RA	Mvestita_S4g08956-RA	      0
+ 16-  1:	Mvestita_S4g08922-RA	Mvestita_S4g08955-RA	      0
+ 16-  2:	Mvestita_S4g08923-RA	Mvestita_S4g08954-RA	      0
+ 16-  3:	Mvestita_S4g08925-RA	Mvestita_S4g08953-RA	      0
+ 16-  4:	Mvestita_S4g08926-RA	Mvestita_S4g08952-RA	      0
+ 16-  5:	Mvestita_S4g08927-RA	Mvestita_S4g08951-RA	      0
+ 16-  6:	Mvestita_S4g08928-RA	Mvestita_S4g08950-RA	      0
+ 16-  7:	Mvestita_S4g08929-RA	Mvestita_S4g08949-RA	      0
+ 16-  8:	Mvestita_S4g08939-RA	Mvestita_S4g08947-RA	      0
+ 16-  9:	Mvestita_S4g08940-RA	Mvestita_S4g08946-RA	 7e-173
+ 16- 10:	Mvestita_S4g08941-RA	Mvestita_S4g08945-RA	 1e-110
+## Alignment 17: score=300.0 e_value=1.1e-18 N=7 Mvestita_S4&Mvestita_S4 minus
+ 17-  0:	Mvestita_S4g08778-RA	Mvestita_S4g08895-RA	      0
+ 17-  1:	Mvestita_S4g08788-RA	Mvestita_S4g08873-RA	      0
+ 17-  2:	Mvestita_S4g08789-RA	Mvestita_S4g08872-RA	      0
+ 17-  3:	Mvestita_S4g08790-RA	Mvestita_S4g08871-RA	 5e-162
+ 17-  4:	Mvestita_S4g08802-RA	Mvestita_S4g08852-RA	 1e-106
+ 17-  5:	Mvestita_S4g08803-RA	Mvestita_S4g08851-RA	  6e-71
+ 17-  6:	Mvestita_S4g08810-RA	Mvestita_S4g08839-RA	  2e-68
+## Alignment 18: score=294.0 e_value=8.9e-12 N=6 Mvestita_S4&Mvestita_S4 minus
+ 18-  0:	Mvestita_S4g09094-RA	Mvestita_S4g09120-RA	 1e-169
+ 18-  1:	Mvestita_S4g09095-RA	Mvestita_S4g09119-RA	      0
+ 18-  2:	Mvestita_S4g09101-RA	Mvestita_S4g09112-RA	 9e-133
+ 18-  3:	Mvestita_S4g09102-RA	Mvestita_S4g09111-RA	  2e-99
+ 18-  4:	Mvestita_S4g09103-RA	Mvestita_S4g09110-RA	      0
+ 18-  5:	Mvestita_S4g09104-RA	Mvestita_S4g09109-RA	 3e-148
+## Alignment 19: score=270.0 e_value=5.2e-13 N=6 Mvestita_S4&Mvestita_S4 minus
+ 19-  0:	Mvestita_S4g09041-RA	Mvestita_S4g09089-RA	 2e-125
+ 19-  1:	Mvestita_S4g09043-RA	Mvestita_S4g09085-RA	  3e-77
+ 19-  2:	Mvestita_S4g09068-RA	Mvestita_S4g09079-RA	 4e-156
+ 19-  3:	Mvestita_S4g09069-RA	Mvestita_S4g09078-RA	  2e-22
+ 19-  4:	Mvestita_S4g09071-RA	Mvestita_S4g09076-RA	      0
+ 19-  5:	Mvestita_S4g09074-RA	Mvestita_S4g09075-RA	      0

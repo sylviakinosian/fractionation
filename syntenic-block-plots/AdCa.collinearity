@@ -1,0 +1,66 @@
+############### Parameters ###############
+# MATCH_SCORE: 50
+# MATCH_SIZE: 5
+# GAP_PENALTY: -1
+# OVERLAP_WINDOW: 5
+# E_VALUE: 1e-05
+# MAX GAPS: 25
+############### Statistics ###############
+# Number of collinear genes: 96, Percentage: 0.31
+# Number of all genes: 31244
+##########################################
+## Alignment 0: score=294.0 e_value=9.1e-14 N=7 Chr1&Chr23 plus
+  0-  0:	Adc08834	Adc11510	      0
+  0-  1:	Adc08838	Adc11516	      0
+  0-  2:	Adc08839	Adc11527	      0
+  0-  3:	Adc08841	Adc11528	 1e-156
+  0-  4:	Adc08842	Adc11529	      0
+  0-  5:	Adc08848	Adc11537	  1e-57
+  0-  6:	Adc08860	Adc11554	  3e-92
+## Alignment 1: score=298.0 e_value=1.7e-11 N=7 Chr10&Chr17 plus
+  1-  0:	Adc00707	Adc06177	 2e-112
+  1-  1:	Adc00713	Adc06183	  3e-93
+  1-  2:	Adc00720	Adc06195	 2e-134
+  1-  3:	Adc00723	Adc06198	      0
+  1-  4:	Adc00736	Adc06214	      0
+  1-  5:	Adc00737	Adc06215	      0
+  1-  6:	Adc00742	Adc06220	 3e-108
+## Alignment 2: score=299.0 e_value=1.4e-11 N=7 Chr12&Chr21 plus
+  2-  0:	Adc02162	Adc10184	  2e-67
+  2-  1:	Adc02167	Adc10186	      0
+  2-  2:	Adc02169	Adc10189	  7e-65
+  2-  3:	Adc02179	Adc10199	  1e-52
+  2-  4:	Adc02183	Adc10201	      0
+  2-  5:	Adc02193	Adc10204	 9e-173
+  2-  6:	Adc02195	Adc10210	  5e-73
+## Alignment 3: score=269.0 e_value=1.2e-11 N=7 Chr12&Chr27 plus
+  3-  0:	Adc01719	Adc14754	  1e-22
+  3-  1:	Adc01732	Adc14776	 3e-166
+  3-  2:	Adc01742	Adc14781	  3e-88
+  3-  3:	Adc01754	Adc14783	 1e-164
+  3-  4:	Adc30308	Adc14786	  8e-19
+  3-  5:	Adc01767	Adc14805	      0
+  3-  6:	Adc01768	Adc14810	 5e-131
+## Alignment 4: score=292.0 e_value=4.7e-12 N=7 Chr14&Chr25 minus
+  4-  0:	Adc03610	Adc12985	      0
+  4-  1:	Adc03616	Adc26302	 1e-108
+  4-  2:	Adc03623	Adc12978	      0
+  4-  3:	Adc03624	Adc12976	  4e-27
+  4-  4:	Adc03636	Adc12970	 1e-100
+  4-  5:	Adc03646	Adc12963	      0
+  4-  6:	Adc03655	Adc12955	  5e-66
+## Alignment 5: score=260.0 e_value=4.2e-09 N=6 Chr16&Chr23 plus
+  5-  0:	Adc05035	Adc11429	      0
+  5-  1:	Adc05036	Adc11431	      0
+  5-  2:	Adc05038	Adc11433	 2e-137
+  5-  3:	Adc05042	Adc11438	      0
+  5-  4:	Adc05046	Adc11447	  6e-52
+  5-  5:	Adc05056	Adc11463	      0
+## Alignment 6: score=292.0 e_value=3.2e-12 N=7 Chr19&Chr5 plus
+  6-  0:	Adc07648	Adc20150	  3e-44
+  6-  1:	Adc07650	Adc20160	 1e-149
+  6-  2:	Adc07660	Adc20168	      0
+  6-  3:	Adc24293	Adc28798	  7e-53
+  6-  4:	Adc24294	Adc28803	      0
+  6-  5:	Adc24300	Adc20185	      0
+  6-  6:	Adc07682	Adc20187	 3e-126
